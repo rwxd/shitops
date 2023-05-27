@@ -2,7 +2,7 @@ baseurl      = "https://shitops.de"
 title        = "ShitOps"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
-paginate     = 10
+paginate     = 50
 disqusShortname = "shitops"
 
 [params]
