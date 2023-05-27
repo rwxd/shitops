@@ -24,7 +24,7 @@ disqusShortname = "shitops"
   enableGlobalLanguageMenu = false
 
   # Metadata mostly used in document's head
-  description = "Technical Solutions for the 10x Engineers"
+  description = "Technical Solutions for the 10X Engineers"
   keywords = "blog, engineering, engineeringblog, solutions, architecture, engineering, solutions"
   images = [""]
 
