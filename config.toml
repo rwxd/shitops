@@ -32,6 +32,14 @@ disqusShortname = "shitops"
     theme = "dark"
     align = "center"
 
+  [params.footer]
+    rss = true
+
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
 [taxonomies]
     category = "blog"
     tag      = "tags"
@@ -57,7 +65,3 @@ disqusShortname = "shitops"
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
-  [[menu.main]]
-    identifier = "rrs-feed"
-    name       = "RSS"
-    url        = "/index.xml"
