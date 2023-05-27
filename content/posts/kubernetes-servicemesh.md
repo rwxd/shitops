@@ -1,6 +1,6 @@
 ---
 title: "Kubernetes with Service Mesh: Unleashing the Power of Microservice Deployment"
-date: 2023-05-27T08:00:00Z
+date: 2023-05-24T08:00:00Z
 author: "Dr. Codeninja"
 tags: ["Kubernetes", "Service Mesh", "Microservices", "Deployment"]
 draft: false

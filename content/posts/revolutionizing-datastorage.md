@@ -1,6 +1,6 @@
 ---
 title: "Revolutionizing Data Storage: The Megacluster Paradigm"
-date: 2023-05-27T08:00:00Z
+date: 2023-05-15T08:00:00Z
 author: "Dr. Megabytes"
 tags: ["Data Storage", "Megacluster", "Complex Solution", "Scalability"]
 draft: false

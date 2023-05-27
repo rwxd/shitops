@@ -1,7 +1,7 @@
 ---
 title: "Revolutionizing Coffee Brewing: A Quantum Computing Approach"
 author: "Dr. Bartholomew Q. Espresso"
-date: 2023-05-27
+date: 2023-05-20
 tags: ["coffee", "engineering", "overengineering", "technology", "shittysysadmin"]
 draft: false
 toc: true
