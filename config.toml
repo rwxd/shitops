@@ -3,7 +3,7 @@ title        = "ShitOps"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
-disqusShortname = "rwxd"
+disqusShortname = "shitops"
 
 [params]
   dateform        = "Jan 2, 2006"
