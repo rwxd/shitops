@@ -1,0 +1,63 @@
+baseurl: "https://shitops.de"
+title: "ShitOps"
+languageCode: "en-us"
+theme: "hello-friend-ng"
+paginate: 50
+disqusShortname: "shitops"
+
+params:
+  dateform: "Jan 2, 2006"
+  dateformShort: "Jan 2"
+  dateformNum: "2006-01-02"
+  dateformNumTime: "2006-01-02 15:04"
+  homeSubtitle: "Powered by ChatGPT"
+  disableReadOtherPosts: false
+  enableSharingButtons: true
+  enableGlobalLanguageMenu: false
+  description: "Technical Solutions for the 10X Engineers"
+  keywords: "blog, engineering, engineeringblog, solutions, architecture, engineering, solutions"
+  images:
+    - ""
+  mermaid:
+    theme: "dark"
+    align: "center"
+  footer:
+    rss: true
+  favicon:
+    color:
+      mask: "#1b1c1d"
+      msapplication: "#1b1c1d"
+      theme: "#1b1c1d"
+
+taxonomies:
+  category: "blog"
+  tag: "tags"
+  series: "series"
+
+languages:
+  en:
+    title: "Technical Solutions for the 10X Engineers"
+    subtitle: "Powered by ChatGPT"
+    readOtherPosts: "Read other posts"
+    params:
+      logo:
+        logoText: "Extreme engineering"
+        logoHomeLink: "/"
+      # or
+      # path: "/img/your-example-logo.svg"
+      # alt: "Your example logo alt text"
+
+menu:
+  main:
+    - identifier: "blog"
+      name: "Blog"
+      url: "/posts"
+      weight: 10
+    - identifier: "career"
+      name: "Career"
+      url: "/career"
+      weight: 20
+    - identifier: "about"
+      name: "About"
+      url: "/about"
+      weight: 30
