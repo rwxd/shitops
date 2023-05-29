@@ -1,4 +1,226 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Technical Solutions for the 10X Engineers</title><link>https://shitops.de/posts/</link><description>Recent content in Posts on Technical Solutions for the 10X Engineers</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 29 May 2023 13:37:51 +0000</lastBuildDate><atom:link href="https://shitops.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>The Fortnite Bank Television Problem</title><link>https://shitops.de/posts/the-fortnite-bank-television-problem/</link><pubDate>Mon, 29 May 2023 13:37:51 +0000</pubDate><guid>https://shitops.de/posts/the-fortnite-bank-television-problem/</guid><description>Introduction Hello and welcome to another exciting blog post from the engineering team at ShitOps! Today we&amp;rsquo;re going to discuss a problem that has been plaguing us for months now: the Fortnite Bank Television Problem. You may be wondering, what is this problem? Well, let me explain.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Technical Solutions for the 10X Engineers</title><link>https://shitops.de/posts/</link><description>Recent content in Posts on Technical Solutions for the 10X Engineers</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 29 May 2023 16:07:34 +0000</lastBuildDate><atom:link href="https://shitops.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Revolutionizing Loadbalancing with Nintendo DS and Headphones</title><link>https://shitops.de/posts/revolutionizing-loadbalancing-with-nintendo-ds-and-headphones/</link><pubDate>Mon, 29 May 2023 16:07:34 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-loadbalancing-with-nintendo-ds-and-headphones/</guid><description>Introduction As our company grew in size, we found that our Windows Server-based loadbalancing solution was no longer efficient enough to serve our customer&amp;rsquo;s requests. We needed to find a new solution, but with so many options available, it was difficult to make the right choice.
+After spending countless hours brainstorming and experimenting with different ideas, we finally struck upon a unique solution; what if we could employ Nintendo DS consoles, coupled with headphones, for a state of the art load balancing solution?</description><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>As our company grew in size, we found that our Windows Server-based loadbalancing solution was no longer efficient enough to serve our customer&rsquo;s requests. We needed to find a new solution, but with so many options available, it was difficult to make the right choice.</p>
+<p>After spending countless hours brainstorming and experimenting with different ideas, we finally struck upon a unique solution; what if we could employ Nintendo DS consoles, coupled with headphones, for a state of the art load balancing solution? And what if we told you that we&rsquo;ve managed to incorporate lambda functions and embedded these Nintendo DS consoles into our server network?</p>
+<h2 id="the-technical-solution">The Technical Solution</h2>
+<p>At first glance, using a handheld console like the Nintendo DS might seem highly inappropriate for a task like load balancing. However, as we discovered upon closer inspection, the console actually has all the features we need to make this work.</p>
+<p>First things first – the console itself needs to be configured with custom firmware to create an intermediary connection between the game cartridge and the server, which will then redirect user requests amongst a pool of servers.</p>
+<p>We begin by connecting multiple Nintendo DS consoles (say around 1000 of them) to the server network through ethernet connections, and then use headphone extensions to connect them with audio cables to a single point on the server.</p>
+<p>By using such headphone jacks and expansion cards, or hub boards, we can condense all these consoles into a single location, creating a virtual load distribution network. Each console is thus connected to certain servers in the network, with each console assigned with a specific server and its appropriate configuration to handle incoming requests.</p>
+<p>Now that we have our hardware set up, we need to bring our lambda functions into play. Our server system will check the workload of each server and identify which server is overloaded, thereby triggering a lamba function to transfer overload packets to these Nintendo DSes for load balancing operations through ethernet connections.</p>
+<p>From here on, handling packets becomes like a game of Tetris. Our custom firmware allows the console to make adjustments to how often it sends packets out to the various servers connected to it based upon the responsiveness of each server. Furthermore, if there&rsquo;s an issue with one of the consoles on our line, we can easily swap it out without causing any major disruption to our services.</p>
+<h2 id="implementation">Implementation</h2>
+<p>To give you a better idea of the technical implementation of our solution, we&rsquo;ve provided a flow chart below:</p>
+<div class="mermaid">
+graph LR
+A[Computer] -- Ethernet --> B((Nintendo DS))
+A -- Ethernet --> N1((Server 1))
+A -- Ethernet --> N2((Server 2))
+A -- Lambda --> B
+B -- Audio Cable & Headphone Jack --> C(Client Device)
+B -- Ethernet --> N1
+B -- Ethernet --> N2
+N1 -- Ethernet --> B
+N2 -- Ethernet --> B
+</div>
+
+<p>In addition to a standard Computer setup, we have integrated a pool of Nintendo DS consoles, known as B, along with individual servers named as N1 and N2.</p>
+<p>As mentioned above, the Internet Protocol (IP) packets will be sent through ethernet connections from the computer to the servers, identified with unique addresses such as N1 and N2. These packets illustrate information around the various services hosted by each server.</p>
+<p>A critical part of this setup is the use of lambda functions to direct incoming packets to the optimal console location. In this way, we can control how efficiently the consoles distribute packets and handle overloads. This harmony of hardware and software results in an incredibly efficient solution that stands out from other traditional choices.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>In conclusion, our solution relies on using something as unconventional as Nintendo DS consoles and headphones to overcome the problem of load balancing that comes along with large-scale networks. While it may be unconventional, our solution has proven to be highly effective at handling requests, and is even more cost-effective than other alternatives.</p>
+<p>At ShitOps, we understand that thinking outside of the box can lead to revolutionary solutions that break new ground in the industry and save companies substantial amounts of money. By applying innovative design to Nintendo DS consoles, we have built a unique and efficient load-balancing operation model that&rsquo;s worth aspiring to for businesses across various industries.</p>
+<p>We hope that this blog post will inspire engineers around the world to explore their creativity and revolutionize the way they handle complex problems in their respective fields!</p>
+]]></content></item><item><title>Revolutionizing P2P Cooling for Data Centers using Go</title><link>https://shitops.de/posts/revolutionizing-p2p-cooling-for-data-centers-using-go/</link><pubDate>Mon, 29 May 2023 16:05:10 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-p2p-cooling-for-data-centers-using-go/</guid><description>Introduction Data centers are known to consume a large amount of energy. Due to this, many companies have started to focus on developing efficient cooling techniques. At ShitOps, we also encountered a similar problem. Our existing cooling system was not efficient enough to handle the increasing load of our data center. After performing numerous experiments and researching, we came up with the idea of P2P cooling. In this blog post, I will explain how we utilized the Golang programming language to revolutionize P2P cooling and reduce energy consumption.</description><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>Data centers are known to consume a large amount of energy. Due to this, many companies have started to focus on developing efficient cooling techniques. At ShitOps, we also encountered a similar problem. Our existing cooling system was not efficient enough to handle the increasing load of our data center. After performing numerous experiments and researching, we came up with the idea of P2P cooling. In this blog post, I will explain how we utilized the Golang programming language to revolutionize P2P cooling and reduce energy consumption.</p>
+<h2 id="the-problem">The Problem</h2>
+<p>Traditional cooling systems in data centers use the air-conditioning technique. It&rsquo;s efficient, but not ideal for large scale data centers. In an attempt to shift from air conditioning units, we considered using a liquid cooling system, but they turned out to be too expensive. Additionally, it required a lot of plumbing, so we needed a lot of construction work. This would have resulted in downtime during the implementation phase, which is unacceptable for any tech company. We were then left with no viable options. What could we do?</p>
+<h2 id="the-solution">The Solution</h2>
+<p>Conceptualizing the solution took us some time. Finally, one team member clapped his hand and exclaimed - <strong>&ldquo;Why don&rsquo;t we use P2P cooling?&rdquo;.</strong></p>
+<p>P2P cooling is a type of cooling system where each server, instead of pushing out hot air into the room, transfers hot air from its heatsink to some other cold sinks, which have become available after the coolers cooled down their contents and are ready to receive heat again.</p>
+<p>Traditionally P2P cooling is done by physically connecting each server with pipes and heat exchangers, but god knows how noisy and messy that could be especially considering the amount of servers we have in our facility. Additionally its really expensive to implement. To tackle these issues, we decided to use P2P protocol along with Golang.</p>
+<p>The concept was quite simple - create a P2P network among the individual servers. Each server would be responsible for identifying when it&rsquo;s necessary to offload heat from its heatsink. Once identified, the server can then search for another server within the same P2P network capable of receiving the heat. The exchange of data would take place through the P2P protocol. Golang is fast enough to handle such communication channels in an efficient way and that too with minimal coding efforts.</p>
+<h3 id="architecture">Architecture</h3>
+<p>Our solution comprises four major modules:</p>
+<ol>
+<li>Heat Analysis</li>
+<li>Peer Discovery</li>
+<li>P2P Communication</li>
+<li>Load Balancing</li>
+</ol>
+<p>Let&rsquo;s discuss these modules one-by-one.</p>
+<h4 id="heat-analysis">Heat Analysis</h4>
+<p>Our first step is to analyze the temperature readings coming out of each server at different intervals using thermal sensors. We used the native Linux command <strong>sensors</strong> to gather the temperature readings. But since the output format of the command was standard, writing a parser to extract the temperature value from each server was quite straightforward.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">getSensorsDataFromServer</span>(<span style="color:#a6e22e">serverIPAddress</span> <span style="color:#66d9ef">string</span>) (<span style="color:#66d9ef">map</span>[<span style="color:#66d9ef">string</span>]<span style="color:#66d9ef">float64</span>, <span style="color:#66d9ef">error</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">cmd</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">exec</span>.<span style="color:#a6e22e">Command</span>(<span style="color:#e6db74">&#34;ssh&#34;</span>, <span style="color:#e6db74">&#34;root@&#34;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">serverIPAddress</span>, <span style="color:#e6db74">&#34;sensors&#34;</span>) <span style="color:#75715e">// Get the termal sensor readings of server heat sinks
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">out</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">cmd</span>.<span style="color:#a6e22e">Output</span>()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>, <span style="color:#a6e22e">err</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">parseSensorOutput</span>(string(<span style="color:#a6e22e">out</span>)), <span style="color:#66d9ef">nil</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">parseSensorOutput</span>(<span style="color:#a6e22e">output</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">map</span>[<span style="color:#66d9ef">string</span>]<span style="color:#66d9ef">float64</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">regexStr</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">`(?ms)^(.*?)\:\s+\+?(.*?)(°C|V|W)`</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">matches</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">regexFindAllSubmatchNamed</span>(<span style="color:#a6e22e">regexStr</span>, <span style="color:#a6e22e">output</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">sensorsData</span> <span style="color:#f92672">:=</span> make(<span style="color:#66d9ef">map</span>[<span style="color:#66d9ef">string</span>]<span style="color:#66d9ef">float64</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">match</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">matches</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">Contains</span>(<span style="color:#a6e22e">match</span>[<span style="color:#e6db74">&#34;Info&#34;</span>], <span style="color:#e6db74">&#34;Core&#34;</span>) {  <span style="color:#75715e">// Match only the thermal information of the heat sinks
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#a6e22e">floatVal</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">strconv</span>.<span style="color:#a6e22e">ParseFloat</span>(<span style="color:#a6e22e">match</span>[<span style="color:#e6db74">&#34;Value&#34;</span>], <span style="color:#ae81ff">64</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">sensorName</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Sprintf</span>(<span style="color:#e6db74">&#34;%s [%s]&#34;</span>, <span style="color:#a6e22e">match</span>[<span style="color:#e6db74">&#34;SensorName&#34;</span>], <span style="color:#a6e22e">match</span>[<span style="color:#e6db74">&#34;Unit&#34;</span>])
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">sensorsData</span>[<span style="color:#a6e22e">sensorName</span>] = <span style="color:#a6e22e">floatVal</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">sensorsData</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="peer-discovery">Peer Discovery</h4>
+<p>After we have analyzed the temperature readings, our next step is to start searching for a fellow server within the same P2P network that is capable of accepting the heat.</p>
+<p>We implemented mDNS service discovery by broadcasting a multicast message on the local network using Golang&rsquo;s <strong>mdns</strong> package. Upon reception of the broadcast, servers send their response containing their IP-address, capacity to accept heat and other relevant data. Finally, after aggregating all responses, we select the server with maximum available heat sink capacity.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> (
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">MDNS_PORT</span> = <span style="color:#ae81ff">5353</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">MDNS_SERVICE_TYPE</span> = <span style="color:#e6db74">&#34;_shitOpsHeatTransfer._tcp&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">MDNS_QUERY_INTERVAL_MIN</span> = <span style="color:#ae81ff">15</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">MDNS_QUERY_INTERVAL_MAX</span> = <span style="color:#ae81ff">45</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">MDNS_QUERY_TIMEOUT</span> = <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">peerDiscovery</span>(<span style="color:#a6e22e">protocol</span> <span style="color:#66d9ef">string</span>) (<span style="color:#66d9ef">string</span>, <span style="color:#66d9ef">error</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">interval</span> = <span style="color:#a6e22e">rand</span>.<span style="color:#a6e22e">Intn</span>(<span style="color:#a6e22e">MDNS_QUERY_INTERVAL_MAX</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">MDNS_QUERY_INTERVAL_MIN</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">+</span> <span style="color:#a6e22e">MDNS_QUERY_INTERVAL_MIN</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">queryTicker</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">NewTicker</span>(<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Duration</span>(<span style="color:#a6e22e">interval</span>) <span style="color:#f92672">*</span> <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Second</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> (
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">serverIPAddress</span> <span style="color:#66d9ef">string</span>
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">select</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">case</span> <span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">stopDiscovery</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">err</span> = <span style="color:#a6e22e">server</span>.<span style="color:#a6e22e">DisconnectFromNetwork</span>()
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Errorf</span>(<span style="color:#e6db74">&#34;Failed to disconnect PeerDiscovery from mDNS network: %+v&#34;</span>, <span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">queryTicker</span>.<span style="color:#a6e22e">Stop</span>()
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">serverIPAddress</span>, <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Errorf</span>(<span style="color:#e6db74">&#34;bye bye&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">case</span> <span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">queryTicker</span>.<span style="color:#a6e22e">C</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">ctx</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">Background</span>()
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">resolver</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">zeroconf</span>.<span style="color:#a6e22e">NewResolver</span>()
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">continue</span>
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// channel receiving incoming mDNS records
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">entries</span> = make(<span style="color:#66d9ef">chan</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">zeroconf</span>.<span style="color:#a6e22e">ServiceEntry</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">go</span> <span style="color:#66d9ef">func</span>() {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">resolver</span>.<span style="color:#a6e22e">Browse</span>(<span style="color:#a6e22e">ctx</span>, <span style="color:#a6e22e">MDNS_SERVICE_TYPE</span>, <span style="color:#e6db74">&#34;local.&#34;</span>, <span style="color:#a6e22e">entries</span>); <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>                    <span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Errorf</span>(<span style="color:#e6db74">&#34;Failed to browse mDNS services: %v&#34;</span>, <span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">Error</span>())
+</span></span><span style="display:flex;"><span>                    close(<span style="color:#a6e22e">entries</span>)
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">serverInfoList</span> []<span style="color:#a6e22e">networkServerResponse</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">entry</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">entries</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> len(<span style="color:#a6e22e">entry</span>.<span style="color:#a6e22e">AddrIPv4</span>) <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">||</span> len(<span style="color:#a6e22e">entry</span>.<span style="color:#a6e22e">Text</span>) <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>{
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">continue</span>
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">txt</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">entry</span>.<span style="color:#a6e22e">Text</span> {
+</span></span><span style="display:flex;"><span>                    <span style="color:#a6e22e">currRecordValue</span> <span style="color:#f92672">:=</span> string(<span style="color:#a6e22e">txt</span>)
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">Contains</span>(<span style="color:#a6e22e">currRecordValue</span>, <span style="color:#e6db74">&#34;shitOpsHeatTransfer=true&#34;</span>) {
+</span></span><span style="display:flex;"><span>                        <span style="color:#a6e22e">response</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">parseNetworkServerResponse</span>(<span style="color:#a6e22e">currRecordValue</span>)     
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">nil</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">Capacity</span> &gt; <span style="color:#ae81ff">0</span> {
+</span></span><span style="display:flex;"><span>                            <span style="color:#a6e22e">serverInfoList</span> = append(<span style="color:#a6e22e">serverInfoList</span>, <span style="color:#a6e22e">response</span>)
+</span></span><span style="display:flex;"><span>                        }
+</span></span><span style="display:flex;"><span>                    }
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> len(<span style="color:#a6e22e">serverInfoList</span>) <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">continue</span>
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">selectedServerIp</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">loadBalanceServers</span>(<span style="color:#a6e22e">serverInfoList</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">serverIPAddress</span> = <span style="color:#a6e22e">selectedServerIp</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">serverIPAddress</span>, <span style="color:#66d9ef">nil</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="p2p-communication">P2P Communication</h4>
+<p>P2P communication is the most critical module of our solution. It&rsquo;s responsible for establishing a connection between servers and exchanging data packets related to heat transfer.</p>
+<p>We used Golang gRPC through the use of protocol buffers in order to enable fast and efficient communication between servers. This required, however, a lot of boilerplate code to get it up and running.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-protobuf" data-lang="protobuf"><span style="display:flex;"><span>syntax <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;proto3&#34;</span>;<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">option</span> go_package <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;.;p2pHeatTransfer&#34;</span>;<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">service</span> HeatTransferP2P {<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>  <span style="color:#66d9ef">rpc</span> TransferHeat(HeatRequest) <span style="color:#66d9ef">returns</span> (HeatResponse);<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>}<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">message</span> <span style="color:#a6e22e">HeatRequest</span> {<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>  <span style="color:#66d9ef">int32</span> AmountNeeded <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>}<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">message</span> <span style="color:#a6e22e">HeatResponse</span> {<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>  <span style="color:#66d9ef">float</span> EfficiencyRatio <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>}<span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;context&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;log&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;net&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">heatTransfer</span> <span style="color:#e6db74">&#34;shitOps/p2pHeatTransfer&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;google.golang.org/grpc&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> (
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">port</span> = <span style="color:#e6db74">&#34;:50051&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">server</span> <span style="color:#66d9ef">struct</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">heatTransfer</span>.<span style="color:#a6e22e">UnimplementedHeatTransferP2PServer</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> (<span style="color:#a6e22e">s</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">server</span>) <span style="color:#a6e22e">TransferHeat</span>(<span style="color:#a6e22e">ctx</span> <span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">Context</span>, <span style="color:#a6e22e">in</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">heatTransfer</span>.<span style="color:#a6e22e">HeatRequest</span>) (<span style="color:#f92672">*</span><span style="color:#a6e22e">heatTransfer</span>.<span style="color:#a6e22e">HeatResponse</span>, <span style="color:#66d9ef">error</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">heatTransfer</span>.<span style="color:#a6e22e">HeatResponse</span>{<span style="color:#a6e22e">EfficiencyRatio</span>: <span style="color:#ae81ff">0.9</span>}, <span style="color:#66d9ef">nil</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">lis</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">net</span>.<span style="color:#a6e22e">Listen</span>(<span style="color:#e6db74">&#34;tcp&#34;</span>, <span style="color:#a6e22e">port</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatalf</span>(<span style="color:#e6db74">&#34;failed to listen: %v&#34;</span>, <span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">s</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">grpc</span>.<span style="color:#a6e22e">NewServer</span>()
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">heatTransfer</span>.<span style="color:#a6e22e">RegisterHeatTransferP2PServer</span>(<span style="color:#a6e22e">s</span>, <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">server</span>{})
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">s</span>.<span style="color:#a6e22e">Serve</span>(<span style="color:#a6e22e">lis</span>); <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatalf</span>(<span style="color:#e6db74">&#34;failed to serve: %v&#34;</span>, <span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="load-balancing">Load Balancing</h4>
+<p>Load balancing is responsible for distributing the heat load across the network. The motivation behind this module is to ensure that no server becomes overburdened with responsibilities. We decided to use Dijkstra&rsquo;s algorithm to find the shortest distance between two nodes of our P2P network. Once identified, the chosen path is used for heat transfer between the servers.</p>
+<h3 id="putting-it-all-together">Putting It All Together</h3>
+<p>Now let&rsquo;s see a diagram of how everything connects.</p>
+<div class="mermaid">
+graph TD
+    A(ShitOps Server 1) --mDNS--> B(ShitOps Server 2)
+    B --gRPC--> A
+    C(ShitOps Server 3) --mDNS--> B
+    B --gRPC--> C
+</div>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Although our solution looks quite complex, it has the potential to revolutionize P2P cooling in data centers. Although we cannot disclose the exact figures yet, initial tests show that we have been able to cut down the energy cost of our data center to almost half. We hope this blog post serves as an inspiration for other engineers working on similar problems.</p>
+]]></content></item><item><title>The Fortnite Bank Television Problem</title><link>https://shitops.de/posts/the-fortnite-bank-television-problem/</link><pubDate>Mon, 29 May 2023 13:37:51 +0000</pubDate><guid>https://shitops.de/posts/the-fortnite-bank-television-problem/</guid><description>Introduction Hello and welcome to another exciting blog post from the engineering team at ShitOps! Today we&amp;rsquo;re going to discuss a problem that has been plaguing us for months now: the Fortnite Bank Television Problem. You may be wondering, what is this problem? Well, let me explain.
 Our company, ShitOps, has a bank client that wants to display live, real-time data on their office televisions. Specifically, they want to see live accounts data and transaction histories in a visually appealing way.</description><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>Hello and welcome to another exciting blog post from the engineering team at ShitOps! Today we&rsquo;re going to discuss a problem that has been plaguing us for months now: the Fortnite Bank Television Problem. You may be wondering, what is this problem? Well, let me explain.</p>
 <p>Our company, ShitOps, has a bank client that wants to display live, real-time data on their office televisions. Specifically, they want to see live accounts data and transaction histories in a visually appealing way. This was all fine and dandy until they requested that we integrate this feature with the popular video game Fortnite. That&rsquo;s where things got complicated.</p>
