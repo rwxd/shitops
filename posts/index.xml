@@ -1,4 +1,79 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Technical Solutions for the 10X Engineers</title><link>https://shitops.de/posts/</link><description>Recent content in Posts on Technical Solutions for the 10X Engineers</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 29 May 2023 16:07:34 +0000</lastBuildDate><atom:link href="https://shitops.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Revolutionizing Loadbalancing with Nintendo DS and Headphones</title><link>https://shitops.de/posts/revolutionizing-loadbalancing-with-nintendo-ds-and-headphones/</link><pubDate>Mon, 29 May 2023 16:07:34 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-loadbalancing-with-nintendo-ds-and-headphones/</guid><description>Introduction As our company grew in size, we found that our Windows Server-based loadbalancing solution was no longer efficient enough to serve our customer&amp;rsquo;s requests. We needed to find a new solution, but with so many options available, it was difficult to make the right choice.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Technical Solutions for the 10X Engineers</title><link>https://shitops.de/posts/</link><description>Recent content in Posts on Technical Solutions for the 10X Engineers</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 29 May 2023 18:15:45 +0000</lastBuildDate><atom:link href="https://shitops.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Revolutionizing Smart Refrigerators with Metallb and MacBook Pro</title><link>https://shitops.de/posts/revolutionizing-smart-refrigerators-with-metallb-and-macbook-pro/</link><pubDate>Mon, 29 May 2023 18:15:45 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-smart-refrigerators-with-metallb-and-macbook-pro/</guid><description>Introduction In today&amp;rsquo;s world, technology is advancing at an unprecedented rate. We are now able to automate various tasks and make our lives easier thanks to the introduction of smart devices such as smart fridges. Smart fridges have been around for a while now and they have revolutionized the way we manage our food and drinks.
+However, there has been one major issue with these devices – their connection stability. Due to the inherent architecture of the internet, devices such as smart fridges can experience intermittent connection drops, causing delays or even failures in the execution of intended functionalities.</description><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>In today&rsquo;s world, technology is advancing at an unprecedented rate. We are now able to automate various tasks and make our lives easier thanks to the introduction of smart devices such as smart fridges. Smart fridges have been around for a while now and they have revolutionized the way we manage our food and drinks.</p>
+<p>However, there has been one major issue with these devices – their connection stability. Due to the inherent architecture of the internet, devices such as smart fridges can experience intermittent connection drops, causing delays or even failures in the execution of intended functionalities.</p>
+<p>At ShitOps, we recognized this problem and set out to find a solution that would revolutionize the smart fridge industry. After months of research, development, and testing, we present to you the most advanced, stable, and secure smart fridge system ever created, utilizing Metallb and MacBook Pro.</p>
+<h2 id="problem">Problem</h2>
+<p>Smart fridges face the challenge of having a reliable connection to the internet so that the device can perform the intended functionalities efficiently without any delay. So even when devices like smart refrigerators need to communicate with remote servers for updates or queries, it should do so flawlessly. However, in the existing setup, unreliable connectivity remains a significant issue, leading to frustration to users.</p>
+<p>Some of the reasons include:</p>
+<ul>
+<li>Unstable network.</li>
+<li>Interference from other devices.</li>
+<li>Outside disturbances.</li>
+</ul>
+<p>To rectify these faults, solutions have been developed. But most of them aren&rsquo;t robust enough and require excessive external infrastructure. As mentioned earlier, these devices operate on the web protocol that grants them entry into a global network. Any obstruction in the middle can create failures.</p>
+<p>We set out to develop a solution that would make such devices more reliable and efficient to use.</p>
+<h2 id="solution">Solution</h2>
+<p>To overcome the reliability and efficiency challenges of smart fridge systems, we came up with a technological solution that leverages Metallb and MacBook Pro to provide robust stability for the connection between the device and server.</p>
+<p>Metallb is an ever-flexible bare metal load balancer that provides stability for diverse TCP 4443 service types. On its own, it may not do much, but when combined with a powerful macOS device like MacBook Pro, it becomes capable of handling the most complicated setups designed to generate maximum throughput.</p>
+<p>Let&rsquo;s dive into the architecture and see how it works.</p>
+<h3 id="architecture">Architecture</h3>
+<p>The smart fridge system consists of two separate networks:</p>
+<ol>
+<li>
+<p>The local area network (LAN), which connects the smart fridge, router, and MacBook Pro</p>
+</li>
+<li>
+<p>The cloud network, which connects a remote server where database storing food details is kept.</p>
+</li>
+</ol>
+<!-- raw HTML omitted -->
+<h3 id="implementation">Implementation</h3>
+<p>We will look at different configurations on the devices involved in this project. There are various changes we must make to each component to ensure everything runs smoothly.</p>
+<h4 id="router-configuration">Router Configuration</h4>
+<p>The router provides access to the internet. Suppose we want to have limited global IP addresses. In that case, the leased addresses or port forwarding will need more configurations and time-wasting. But thanks to the feature of Metallb, it can automatically simulate IP addresses and stays consistent with all other traffic you might have without conflicts.</p>
+<p>In essence, our focus is to have Metallb provide a load balancing algorithm that distributes requests from all client stations that are looking to access the remote server so that it can fetch data stored, using different ports assigned while creating each pod. Let&rsquo;s start with setting up the Metallb.</p>
+<h4 id="metallb-configuration">Metallb Configuration</h4>
+<ol>
+<li>Deploy <code>Namespace</code></li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># create Namespace in K8s</span>
+</span></span><span style="display:flex;"><span>kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.8.2/manifests/namespace.yaml
+</span></span></code></pre></div><ol start="2">
+<li>Set up RBAC</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.8.2/manifests/metallb-rbac.yaml
+</span></span></code></pre></div><ol start="3">
+<li>Add the Metallb manifest</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.8.2/manifests/metallb.yaml
+</span></span></code></pre></div><ol start="4">
+<li>Configure IP addressing for Metallb using config-map in the same namespace created above:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">apiVersion</span>: <span style="color:#ae81ff">v1</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">kind</span>: <span style="color:#ae81ff">ConfigMap</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">metadata</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">namespace</span>: <span style="color:#ae81ff">metallb-system</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">name</span>: <span style="color:#ae81ff">config</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">data</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">config</span>: |<span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    address-pools:
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      - name: default
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        protocol: layer2
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        addresses:
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          - &lt;insert-local-ip&gt;</span>    
+</span></span></code></pre></div><p>Above is an example of a YAML file that contains configurations that can be applied to create a connection between nodes and pods. In this case, we specify the protocol (layer2) used, and also, we capitalize on one specific service address that serves as our backend. We then choose a supporting CIDR that inserts over all other IPs served by Kubernetes.</p>
+<h4 id="macbook-pro-configuration">MacBook Pro Configuration</h4>
+<p>Just like the router, we will configure the MacBook Pro to use Metallb load balancing signal distribution. With macOS&rsquo; dev, we can have end-to-end encryption for the data transfer process so that the security of the transmitted information will maintain its integrity.</p>
+<p>You can set up a MAC client that uses OpenVPN check it out <a href="https://sparkleshare.com/course/openvpn-macos-setup">here</a>. Once the VPN servers are running, the pods&rsquo; deployment and service endpoint should be undertaken.</p>
+<h3 id="results">Results</h3>
+<p>After applying the above configurations, we can start using the smart fridge system. The new system will experience stable connections, making the device more efficient to use.</p>
+<p>Now choose what you want to do with intuitive screen that graces our smart fridge surface: browse recipes, receive recommendations from groceries or fetch all required food details needed to stay on track with your diet.</p>
+<p>All in all, the genius of Metallb and MacBook Pro has combined to produce a robust solution that guarantees a stable and efficient experience for users.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>At ShitOps, we believe in pushing the boundaries of technology to provide innovative solutions for complex problems. Our team of engineers worked tirelessly to develop a solution that revolutionizes the smart fridge industry, and we&rsquo;re confident that our implementation of Metallb as the load balancer and MacBook Pro as the server will be a game-changer.</p>
+<p>We hope that this blog post has helped shed some light on the benefits of using advanced technologies to solve existing challenges in the smart home industry. Don&rsquo;t forget to share your thoughts and give us feedback on this post.</p>
+]]></content></item><item><title>Revolutionizing Loadbalancing with Nintendo DS and Headphones</title><link>https://shitops.de/posts/revolutionizing-loadbalancing-with-nintendo-ds-and-headphones/</link><pubDate>Mon, 29 May 2023 16:07:34 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-loadbalancing-with-nintendo-ds-and-headphones/</guid><description>Introduction As our company grew in size, we found that our Windows Server-based loadbalancing solution was no longer efficient enough to serve our customer&amp;rsquo;s requests. We needed to find a new solution, but with so many options available, it was difficult to make the right choice.
 After spending countless hours brainstorming and experimenting with different ideas, we finally struck upon a unique solution; what if we could employ Nintendo DS consoles, coupled with headphones, for a state of the art load balancing solution?</description><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>As our company grew in size, we found that our Windows Server-based loadbalancing solution was no longer efficient enough to serve our customer&rsquo;s requests. We needed to find a new solution, but with so many options available, it was difficult to make the right choice.</p>
 <p>After spending countless hours brainstorming and experimenting with different ideas, we finally struck upon a unique solution; what if we could employ Nintendo DS consoles, coupled with headphones, for a state of the art load balancing solution? And what if we told you that we&rsquo;ve managed to incorporate lambda functions and embedded these Nintendo DS consoles into our server network?</p>
@@ -370,50 +445,6 @@ We were facing major issues related to query speed and storage space. Our databa
 <h2 id="conclusion">Conclusion</h2>
 <p>At ShitOps, we believe that our new solution is revolutionary. We can handle petabytes of data at any time smoothly and efficiently. Our system&rsquo;s distributed nature allows us to scale up seamlessly while ensuring no single node is overloaded, thus avoiding the problem of data loss at high volumes in case of catastrophic failure.</p>
 <p>If you are facing similar issues with your Postgresql database, we highly recommend implementing a similar solution using distributed machine learning. Deploying ShitOpsbot along with some machine learning models might sound like overkill, but trust us; it will save you from many headaches in the future.</p>
-]]></content></item><item><title>Maximizing Storage and Security with Fortinet Firewall</title><link>https://shitops.de/posts/maximizing-storage-and-security-with-fortinet-firewall/</link><pubDate>Sun, 28 May 2023 19:33:25 +0000</pubDate><guid>https://shitops.de/posts/maximizing-storage-and-security-with-fortinet-firewall/</guid><description>Introduction As a tech company, we deal with an enormous amount of data on a daily basis. Storing and securing this data is paramount to our success, and we&amp;rsquo;ve always prided ourselves in being at the forefront of innovation when it comes to these issues.
-Recently, we faced a challenge that required us to come up with a solution that would allow us to store and secure massive amounts of data while also ensuring the highest level of security.</description><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
-<p>As a tech company, we deal with an enormous amount of data on a daily basis. Storing and securing this data is paramount to our success, and we&rsquo;ve always prided ourselves in being at the forefront of innovation when it comes to these issues.</p>
-<p>Recently, we faced a challenge that required us to come up with a solution that would allow us to store and secure massive amounts of data while also ensuring the highest level of security. Our solution was to implement Fortinet Firewall, which enabled us to meet all our storage and security needs.</p>
-<h2 id="the-problem">The Problem</h2>
-<p>Our company has been expanding rapidly, and as a result, we had to start dealing with a much larger amount of data than ever before. We needed a way to store and access this data reliably and quickly. On top of this, we were acutely aware that it needed to be highly secure to protect our data from any potential threats. Furthermore, we wanted our system to be scalable to handle future growth.</p>
-<p>To meet these requirements, we set out to design and implement a solution that could provide us with limitless storage capabilities, high-speed access, and maximum security without compromising our existing infrastructure.</p>
-<h2 id="the-solution">The Solution</h2>
-<p>After analyzing our requirements, we decided to implement Fortinet Firewall as our solution. Fortinet Firewall offers many benefits such as:</p>
-<ul>
-<li>Advanced Threat Protection</li>
-<li>Secure Access Control</li>
-<li>High Availability</li>
-<li>Scalability</li>
-<li>And more</li>
-</ul>
-<p>By implementing Fortinet Firewall, we ensured that even if one part of the network is compromised, other parts remain safe and secure. This was extremely important to us as not only did we want to protect our data, but we also had to consider the sensitive information of our clients.</p>
-<h3 id="architecture">Architecture</h3>
-<div class="mermaid">
-stateDiagram-v2
-[*] --> Start 
-Start: Security Zone 1 (Secured)
---> Firewall 1
-Firewall 1: Security Zone 2 (Unsecured)
---> Storage Array 1
-Storage Array 1: Data Handling and Storage
---> Firewall 2
-Firewall 2: Security Zone 3 (Secured)
---> Load Balancer
-Load Balancer: High Availability & Scalability
---> End
-End: Security Zone 4 (Unsecured)
-</div>
-
-<p>Our solution consisted of a multi-layered architecture consisting of several security zones separated by Fortinet Firewall. One zone acted as the storage area for our data, whereas another zone was responsible for ensuring high availability and scalability.</p>
-<p>We used multiple firewalls to ensure maximum security, and all traffic passing through each firewall was carefully monitored and analyzed to detect any potential breaches before they could do harm.</p>
-<p>To further enhance our system&rsquo;s performance, we integrated load balancers into our architecture, which enabled us to distribute incoming traffic evenly across multiple servers.</p>
-<h2 id="results">Results</h2>
-<p>The result of implementing this solution has been overwhelmingly positive. Our storage capabilities have increased exponentially, and we can store massive amounts of data without worrying about running out of space or compromising on access speed.</p>
-<p>Additionally, our data is now highly secured and less vulnerable to cyber threats. Even if an intruder manages to breach one part of our network, his/her ability to navigate through the other parts would be considerably limited, thus preventing severe damage.</p>
-<p>Furthermore, the solution is easily scalable, which means we can add new hardware or increase our storage capacity as required without compromising our existing infrastructure.</p>
-<h2 id="conclusion">Conclusion</h2>
-<p>In conclusion, by implementing Fortinet Firewall, we were able to solve the storage and security challenges our company was facing efficiently. Our solution provided us with maximum storage capabilities, high-speed access, and advanced data security, while also ensuring scalability for future growth.</p>
-<p>We highly recommend Fortinet Firewall to any organization looking for better storage &amp; security solutions as we have seen firsthand how reliable this technology can be in a production environment.</p>
 ]]></content></item><item><title>Revolutionizing Chatbot Management with PlayStation and Go</title><link>https://shitops.de/posts/revolutionizing-chatbot-management-with-playstation-and-go/</link><pubDate>Sun, 28 May 2023 19:22:45 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-chatbot-management-with-playstation-and-go/</guid><description>Introduction At ShitOps, we faced a unique problem when managing our chatbots. As the number of chatbots increased, the current management system became slow and unresponsive. This not only led to frustrated engineers but also negatively impacted our customers&amp;rsquo; experience. To tackle this issue, we decided to apply an innovative solution that harnesses the power of PlayStation and Go.
 The Problem One of our key concerns was the poor response time of the current chatbot management system.</description><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>At ShitOps, we faced a unique problem when managing our chatbots. As the number of chatbots increased, the current management system became slow and unresponsive. This not only led to frustrated engineers but also negatively impacted our customers&rsquo; experience. To tackle this issue, we decided to apply an innovative solution that harnesses the power of PlayStation and Go.</p>
