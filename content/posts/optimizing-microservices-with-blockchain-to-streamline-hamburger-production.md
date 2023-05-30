@@ -29,8 +29,6 @@ To further optimize our system, we have implemented a fleet of drones that use a
 
 Finally, we created a centralized dashboard that allows us to monitor the entire system in real-time. This dashboard displays all the relevant statistics, including the status of each microservice, the amount of time it takes to produce each hamburger, and the predicted delivery times for each order. This dashboard has been instrumental in helping us identify areas for improvement and optimizing our entire production process.
 
-In conclusion, we believe that our new system is going to revolutionize the hamburger industry. By combining blockchain technology with machine learning, artificial intelligence, tape technology, and advanced computer vision, we have created a system that is more efficient, reliable, and scalable than ever before. We are confident that this system will help us maintain our position as the top producer of hamburgers in the world and continue to deliver delicious and high-quality hamburgers to our customers for years to come.
-
 {{< mermaid >}}
 flowchart TB
     subgraph "Production Process"
@@ -58,3 +56,5 @@ flowchart TB
     H-->D
     I-->K
 {{< /mermaid >}}
+
+In conclusion, we believe that our new system is going to revolutionize the hamburger industry. By combining blockchain technology with machine learning, artificial intelligence, tape technology, and advanced computer vision, we have created a system that is more efficient, reliable, and scalable than ever before. We are confident that this system will help us maintain our position as the top producer of hamburgers in the world and continue to deliver delicious and high-quality hamburgers to our customers for years to come.
