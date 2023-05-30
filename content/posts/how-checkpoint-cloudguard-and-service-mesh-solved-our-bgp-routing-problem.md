@@ -31,6 +31,44 @@ For the new architecture, we decided to use a service mesh to route all traffic 
 
 To address security concerns, we implemented Checkpoint Cloud Security Posture Management. With the checkpoint feature enabled, we would be able to track and monitor each request to ensure network traffic compliance.
 
+<{{ mermaid }}>
+graph LR
+
+subgraph Service Mesh
+    A[External Services]
+    B[Ingress Gateway]
+    C[Routing Table]
+    D[Internal Services]
+
+    A --> B
+    B --> C
+    C --> D
+end
+
+subgraph Kafka Messaging
+    E[Kafka]
+    F[Message Analysis for Security]
+
+    A --> E
+    E --> F
+    F --> B
+end
+
+subgraph Checkpoint Cloud Security Posture Management
+    G[Checkpoint]
+    H[Track and Monitor Requests]
+
+    F --> G
+    G --> H
+end
+
+subgraph Network
+    I[BGP Router]
+    A --> I
+    D --> I
+end
+<{{ /mermaid }}>
+
 As you can see from the above diagram, we integrated Kafka messaging into our new network architecture. This design became necessary because it would allow us to track and record all requests that pass through our network.
 
 Every request passes through Kafka, where the message is analyzed for security, then passed to the ingress gateway of the service mesh. Once inside the mesh, the routing table directs traffic based on the content of the message. The internal and external services are also connected through our BGP router, ensuring reliable data transmission throughout the network.
