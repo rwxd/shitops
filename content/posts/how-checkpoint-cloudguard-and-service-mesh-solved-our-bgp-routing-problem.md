@@ -31,7 +31,7 @@ For the new architecture, we decided to use a service mesh to route all traffic 
 
 To address security concerns, we implemented Checkpoint Cloud Security Posture Management. With the checkpoint feature enabled, we would be able to track and monitor each request to ensure network traffic compliance.
 
-<{{ mermaid }}>
+{{< mermaid >}}
 graph LR
 
 subgraph Service Mesh
@@ -67,7 +67,7 @@ subgraph Network
     A --> I
     D --> I
 end
-<{{ /mermaid }}>
+{{< /mermaid >}}
 
 As you can see from the above diagram, we integrated Kafka messaging into our new network architecture. This design became necessary because it would allow us to track and record all requests that pass through our network.
 
