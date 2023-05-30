@@ -8,39 +8,44 @@ In this post, I will walk you through how we overcame our BGP routing problem an
 <h2 id="the-solution">The Solution</h2>
 <p>For the new architecture, we decided to use a service mesh to route all traffic across our internal network. This would allow us to remove any potentially faulty network devices and guarantee low latency and high bandwidth. But with great bandwidth comes great responsibility; we needed to ensure security and auditing capabilities for each request.</p>
 <p>To address security concerns, we implemented Checkpoint Cloud Security Posture Management. With the checkpoint feature enabled, we would be able to track and monitor each request to ensure network traffic compliance.</p>
-<p>&lt;{{ mermaid }}&gt;
-graph LR</p>
-<p>subgraph Service Mesh
-A[External Services]
-B[Ingress Gateway]
-C[Routing Table]
-D[Internal Services]</p>
-<pre><code>A --&gt; B
-B --&gt; C
-C --&gt; D
-</code></pre>
-<p>end</p>
-<p>subgraph Kafka Messaging
-E[Kafka]
-F[Message Analysis for Security]</p>
-<pre><code>A --&gt; E
-E --&gt; F
-F --&gt; B
-</code></pre>
-<p>end</p>
-<p>subgraph Checkpoint Cloud Security Posture Management
-G[Checkpoint]
-H[Track and Monitor Requests]</p>
-<pre><code>F --&gt; G
-G --&gt; H
-</code></pre>
-<p>end</p>
-<p>subgraph Network
-I[BGP Router]
-A &ndash;&gt; I
-D &ndash;&gt; I
+<div class="mermaid">
+graph LR
+
+subgraph Service Mesh
+    A[External Services]
+    B[Ingress Gateway]
+    C[Routing Table]
+    D[Internal Services]
+
+    A --> B
+    B --> C
+    C --> D
 end
-&lt;{{ /mermaid }}&gt;</p>
+
+subgraph Kafka Messaging
+    E[Kafka]
+    F[Message Analysis for Security]
+
+    A --> E
+    E --> F
+    F --> B
+end
+
+subgraph Checkpoint Cloud Security Posture Management
+    G[Checkpoint]
+    H[Track and Monitor Requests]
+
+    F --> G
+    G --> H
+end
+
+subgraph Network
+    I[BGP Router]
+    A --> I
+    D --> I
+end
+</div>
+
 <p>As you can see from the above diagram, we integrated Kafka messaging into our new network architecture. This design became necessary because it would allow us to track and record all requests that pass through our network.</p>
 <p>Every request passes through Kafka, where the message is analyzed for security, then passed to the ingress gateway of the service mesh. Once inside the mesh, the routing table directs traffic based on the content of the message. The internal and external services are also connected through our BGP router, ensuring reliable data transmission throughout the network.</p>
 <h2 id="conclusion">Conclusion</h2>
