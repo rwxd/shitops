@@ -10,7 +10,6 @@ The issue was compounded by the fact that our IT team was spread across differen
 <p>At first, the solution seemed counterintuitive, even to us– leveraging one of the most popular video game franchises ever: World of Warcraft (WoW). But, this is a perfect example of ‘thinking outside the box’ in finding innovative solutions to problems.</p>
 <p>We proposed building a WoW bot, capable of complete server management operations. Using the powerful scripting capabilities of Lua language in WoW&rsquo;s API, we could control and monitor servers programmatically from within the dazzling World of Warcraft environment.</p>
 <p>The next step was to integrate this with Ansible Tower – a valuable automation tool for configuration management, application deployment, and task orchestration. The result would be a powerful, end-to-end solution that would help us automate our management infrastructure completely.</p>
-<p>This is how it works:</p>
 <h2 id="the-integration">The Integration</h2>
 <p>Our approach leverages the strengths of both technologies to provide an innovative solution to the problem:</p>
 <ol>
