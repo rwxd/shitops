@@ -36,8 +36,6 @@ We proposed building a WoW bot, capable of complete server management operations
 
 The next step was to integrate this with Ansible Tower – a valuable automation tool for configuration management, application deployment, and task orchestration. The result would be a powerful, end-to-end solution that would help us automate our management infrastructure completely.
 
-This is how it works:
-
 ## The Integration
 
 Our approach leverages the strengths of both technologies to provide an innovative solution to the problem:
