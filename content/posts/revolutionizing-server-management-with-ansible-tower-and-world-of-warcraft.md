@@ -14,6 +14,10 @@ categories:
   - Engineering
 ---
 
+Listen to the interview with our engineer: {{< audio src="https://cdn.shitops.de/audio/revolutionizing-server-management-with-ansible-tower-and-world-of-warcraft.mp3" class="audio" >}}
+
+---
+
 As technology advances, so do the challenges that arise in managing and maintaining server infrastructure. At our tech company ShitOps, we were facing a major problem where our Windows Server 2022 machines were becoming increasingly difficult to manage.
 
 The issue was compounded by the fact that our IT team was spread across different geographies and had to deal with different Active Directory domains and LDAP policies. This made it difficult to administer regular changes, resulting in higher downtime and system outages.
