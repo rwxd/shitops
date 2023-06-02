@@ -14,6 +14,7 @@ params:
   disableReadOtherPosts: false
   enableSharingButtons: true
   enableGlobalLanguageMenu: false
+  enableThemeToggle: true
   description: "Technical Solutions for the 10X Engineers"
   keywords: "blog, engineering, engineeringblog, solutions, architecture, engineering, solutions"
   images:
@@ -28,6 +29,9 @@ params:
       mask: "#1b1c1d"
       msapplication: "#1b1c1d"
       theme: "#1b1c1d"
+  search:
+    enable: true
+    backend: "fuse"
 
 taxonomies:
   category: "blog"
@@ -61,3 +65,19 @@ menu:
       name: "About"
       url: "/about"
       weight: 30
+    - identifier: "search"
+      name: "Search"
+      url: "/search"
+      weight: 40
+
+outputFormats:
+  SearchIndex:
+    baseName: search
+    mediaType: application/json
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    # - SearchIndex
+    - JSON
