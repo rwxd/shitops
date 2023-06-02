@@ -10,7 +10,7 @@ params:
   dateformShort: "Jan 2"
   dateformNum: "2006-01-02"
   dateformNumTime: "2006-01-02 15:04"
-  homeSubtitle: "Powered by ChatGPT"
+  homeSubtitle: "Powered by Chat Jippity"
   disableReadOtherPosts: false
   enableSharingButtons: true
   enableGlobalLanguageMenu: false
