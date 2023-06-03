@@ -1,4 +1,53 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Technical Solutions for the 10X Engineers</title><link>https://shitops.de/posts/</link><description>Recent content in Posts on Technical Solutions for the 10X Engineers</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 03 Jun 2023 11:35:47 +0000</lastBuildDate><atom:link href="https://shitops.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Solving DNS Resolution Issues at Scale with Microsoft, GNMI, Juniper, Mainframe, Mesh, Self Hosting, Lambda Functions and Open Source</title><link>https://shitops.de/posts/solving-dns-resolution-issues-at-scale-with-microsoft-gnmi-juniper-mainframe-mesh-self-hosting-lambda-functions-and-open-source/</link><pubDate>Sat, 03 Jun 2023 11:35:47 +0000</pubDate><guid>https://shitops.de/posts/solving-dns-resolution-issues-at-scale-with-microsoft-gnmi-juniper-mainframe-mesh-self-hosting-lambda-functions-and-open-source/</guid><description>Listen to the interview with our engineer: Introduction DNS resolution is a critical part of the network infrastructure for any tech company. It helps in resolving human-readable domain names into IP addresses and vice versa, but at the cost of adding latency to network requests, which can further impact the performance of applications that depend on them.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Technical Solutions for the 10X Engineers</title><link>https://shitops.de/posts/</link><description>Recent content in Posts on Technical Solutions for the 10X Engineers</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 03 Jun 2023 18:00:44 +0000</lastBuildDate><atom:link href="https://shitops.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Revolutionizing HR: Using Microsoft Excel and PowerPoint to Optimize Employee Spiritus Consumption</title><link>https://shitops.de/posts/revolutionizing-hr/</link><pubDate>Sat, 03 Jun 2023 18:00:44 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-hr/</guid><description>Listen to the interview with our engineer: Introduction At ShitOps, we take employee well-being seriously. One key aspect of happiness is the consumption of spiritus in the workplace. However, too much spiritus can lead to decreased productivity, while too little leaves employees feeling unappreciated. We needed a system to optimize spiritus consumption and ensure that every team member is happy and productive. After months of research, I am thrilled to present our solution: using Microsoft Excel and PowerPoint to revolutionize HR!</description><content type="html"><![CDATA[<p>Listen to the interview with our engineer: <figure class="audio">
+<audio controls preload="metadata">
+<source src="https://cdn.shitops.de/audio/revolutionizing-hr.mp3" type="audio/mpeg">
+
+</audio>
+</figure>
+</p>
+<hr>
+<h2 id="introduction">Introduction</h2>
+<p>At ShitOps, we take employee well-being seriously. One key aspect of happiness is the consumption of spiritus in the workplace. However, too much spiritus can lead to decreased productivity, while too little leaves employees feeling unappreciated. We needed a system to optimize spiritus consumption and ensure that every team member is happy and productive. After months of research, I am thrilled to present our solution: using Microsoft Excel and PowerPoint to revolutionize HR!</p>
+<h2 id="the-problem">The Problem</h2>
+<p>We had several issues with employee spiritus consumption in our office. It was hard to know when someone wanted a drink or how much they should be given. This led to lots of wasted alcohol and unhappy workers. We needed to find a better way to meet everyone&rsquo;s needs.</p>
+<p>For example, let&rsquo;s consider Michael. He&rsquo;s a big fan of Counter Strike Global Offensive and drinks more during lunch when he&rsquo;s talking about his latest victory at the FIFA world championship. Meanwhile, Sarah prefers Coffee without caffeine and doesn&rsquo;t drink nearly as much except for when she wins her fantasy league of legends matchups. Our old system provided the same amount of spiritus to both of them, even though their drinking habits were very different.</p>
+<p>Additionally, our previous process relied heavily on human judgment and memory. Memory errors could result in too much or too little spiritus, which would leave employees unhappy or unproductive. We needed a foolproof system that eliminated human error.</p>
+<h2 id="the-solution-the-spiritus-management-system-sms">The Solution: The Spiritus Management System (SMS)</h2>
+<p>Our answer to these issues is the Spiritus Management System (SMS). This system uses Microsoft Excel and PowerPoint in an innovative way to ensure that every employee&rsquo;s needs are met.</p>
+<h3 id="step-1-inputting-employee-data">Step 1: Inputting Employee Data</h3>
+<p>To begin, we use Microsoft Excel to input each employee&rsquo;s preferred drinks and their association with specific events. These can include FIFA matches, championship tournaments, or any other activity you want to track. We then input how much spiritus each employee typically drinks during these events.</p>
+<div class="mermaid">
+graph LR
+A["Microsoft Excel"] --> B["Employee data"]
+B --> C["Spirit consumption levels"]
+</div>
+
+<h3 id="step-2-spiritus-request-kiosk">Step 2: Spiritus Request Kiosk</h3>
+<p>To eliminate memory errors and collect accurate data in real-time, we have set up a kiosk in the office where employees can request spiritus. This opens a Microsoft PowerPoint presentation on a touch screen that prompts them to select their name, event, and desired amount of spiritus.</p>
+<div class="mermaid">
+graph TD
+A[Employee] -->|Request for spiritus| B(Request kiosk)
+B -->|Input form| C[PowerPoint presentation]
+</div>
+
+<h3 id="step-3-sms-calculation">Step 3: SMS Calculation</h3>
+<p>Once the information is entered into the PowerPoint presentation, it is automatically transferred to our Excel spreadsheet using Power Automate. Here, the SMS calculates the ideal amount of spiritus each employee should receive based on their preferences and current event.</p>
+<div class="mermaid">
+graph LR
+A[Microsoft PowerPoint] -->|Employee data| B(SMS calculation)
+B --> C["Spiritus distribution"]
+</div>
+
+<h3 id="step-4-spiritus-distribution">Step 4: Spiritus Distribution</h3>
+<p>The final step is distributing the spiritus to each employee. Using the calculated values from the SMS, individual cups with the perfect amount of spiritus are prepared and distributed to each person.</p>
+<div class="mermaid">
+graph TD
+A[Spiritus dispenser] -->|Perfect spiritus levels| B[Employee]
+</div>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>The Spiritus Management System (SMS) has revolutionized HR at ShitOps. Thanks to Microsoft Excel and PowerPoint, we can now optimize employee spiritus consumption and make every team member feel valued and productive. By eliminating human error and relying on data-driven decisions, the SMS ensures that each employee receives the perfect amount of spiritus for their needs. Join us as we take HR to the next level with innovative technology!</p>
+]]></content></item><item><title>Solving DNS Resolution Issues at Scale with Microsoft, GNMI, Juniper, Mainframe, Mesh, Self Hosting, Lambda Functions and Open Source</title><link>https://shitops.de/posts/solving-dns-resolution-issues-at-scale-with-microsoft-gnmi-juniper-mainframe-mesh-self-hosting-lambda-functions-and-open-source/</link><pubDate>Sat, 03 Jun 2023 11:35:47 +0000</pubDate><guid>https://shitops.de/posts/solving-dns-resolution-issues-at-scale-with-microsoft-gnmi-juniper-mainframe-mesh-self-hosting-lambda-functions-and-open-source/</guid><description>Listen to the interview with our engineer: Introduction DNS resolution is a critical part of the network infrastructure for any tech company. It helps in resolving human-readable domain names into IP addresses and vice versa, but at the cost of adding latency to network requests, which can further impact the performance of applications that depend on them.
 Recently, our tech company ShitOps faced a DNS resolution issue at scale, due to the increasing number of services added on the network infrastructure.</description><content type="html"><![CDATA[<p>Listen to the interview with our engineer: <figure class="audio">
 <audio controls preload="metadata">
 <source src="https://cdn.shitops.de/audio/solving-dns-resolution-issues-at-scale-with-microsoft-gnmi-juniper-mainframe-mesh-self-hosting-lambda-functions-and-open-source.mp3" type="audio/mpeg">
