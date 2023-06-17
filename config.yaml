@@ -35,7 +35,7 @@ params:
   plausible:
     enable: true
     selfhosted_domain: "plausible.chaops.de"
-    domain: plausible.chaops.de
+    domain: shitops.de
     outbound_link: true
     file_downloads: true
     debug: false
