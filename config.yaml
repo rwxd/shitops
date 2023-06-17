@@ -32,6 +32,14 @@ params:
   search:
     enable: true
     backend: "fuse"
+  plausible:
+    enable: true
+    selfhosted_domain: "plausible.chaops.de"
+    domain: plausible.chaops.de
+    outbound_link: true
+    file_downloads: true
+    debug: false
+    gitstar: false
 
 taxonomies:
   category: "blog"
@@ -41,9 +49,9 @@ taxonomies:
 languages:
   en:
     title: "Technical Solutions for the 10X Engineers"
-    subtitle: "Powered by ChatGPT"
-    readOtherPosts: "Read other posts"
     params:
+      subtitle: "Powered by ChatGPT"
+      readOtherPosts: "Read other posts"
       logo:
         logoText: "Extreme engineering"
         logoHomeLink: "/"
@@ -81,3 +89,7 @@ outputs:
     - RSS
     # - SearchIndex
     - JSON
+
+module:
+  imports:
+    - path: "github.com/divinerites/plausible-hugo"
