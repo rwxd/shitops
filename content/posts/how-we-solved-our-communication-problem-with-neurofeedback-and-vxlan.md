@@ -12,7 +12,7 @@ categories:
   - Engineering
 ---
 
-Listen to the interview with our engineer: {{< audio src="https://cdn.shitops.de/audio/how-we-solved-our-communication-problem-with-neurofeedback-and-vxlan.mp3" class="audio" >}}
+Listen to the interview with our engineer: {{< audio src="https://s3.chaops.de/shitops/podcasts/how-we-solved-our-communication-problem-with-neurofeedback-and-vxlan.mp3" class="audio" >}}
 
 ---
 

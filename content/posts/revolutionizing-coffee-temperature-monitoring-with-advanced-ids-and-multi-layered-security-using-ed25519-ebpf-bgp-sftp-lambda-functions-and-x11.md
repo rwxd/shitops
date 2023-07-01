@@ -13,7 +13,7 @@ categories:
   - Engineering
 ---
 
-Listen to the interview with our engineer: {{< audio src="https://cdn.shitops.de/audio/revolutionizing-coffee-temperature-monitoring-with-advanced-ids-and-multi-layered-security-using-ed25519-ebpf-bgp-sftp-lambda-functions-and-x11.mp3" class="audio" >}}
+Listen to the interview with our engineer: {{< audio src="https://s3.chaops.de/shitops/podcasts/revolutionizing-coffee-temperature-monitoring-with-advanced-ids-and-multi-layered-security-using-ed25519-ebpf-bgp-sftp-lambda-functions-and-x11.mp3" class="audio" >}}
 
 ---
 

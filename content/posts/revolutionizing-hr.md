@@ -14,7 +14,7 @@ categories:
 
 ---
 
-Listen to the interview with our engineer: {{< audio src="https://cdn.shitops.de/audio/revolutionizing-hr.mp3" class="audio" >}}
+Listen to the interview with our engineer: {{< audio src="https://s3.chaops.de/shitops/podcasts/revolutionizing-hr.mp3" class="audio" >}}
 
 ---
 

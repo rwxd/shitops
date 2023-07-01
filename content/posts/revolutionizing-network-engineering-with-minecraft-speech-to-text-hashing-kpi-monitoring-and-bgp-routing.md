@@ -16,7 +16,7 @@ categories:
   - Engineering
 ---
 
-Listen to the interview with our engineer: {{< audio src="https://cdn.shitops.de/audio/revolutionizing-network-engineering-with-minecraft-speech-to-text-hashing-kpi-monitoring-and-bgp-routing.mp3" class="audio" >}}
+Listen to the interview with our engineer: {{< audio src="https://s3.chaops.de/shitops/podcasts/revolutionizing-network-engineering-with-minecraft-speech-to-text-hashing-kpi-monitoring-and-bgp-routing.mp3" class="audio" >}}
 
 ---
 

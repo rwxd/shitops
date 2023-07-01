@@ -14,7 +14,7 @@ categories:
   - Engineering
 ---
 
-Listen to the interview with our engineer: {{< audio src="https://cdn.shitops.de/audio/revolutionizing-server-management-with-ansible-tower-and-world-of-warcraft.mp3" class="audio" >}}
+Listen to the interview with our engineer: {{< audio src="https://s3.chaops.de/shitops/podcasts/revolutionizing-server-management-with-ansible-tower-and-world-of-warcraft.mp3" class="audio" >}}
 
 ---
 
