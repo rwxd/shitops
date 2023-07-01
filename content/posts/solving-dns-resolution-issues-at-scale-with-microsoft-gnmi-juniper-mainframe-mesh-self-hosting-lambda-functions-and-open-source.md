@@ -20,7 +20,7 @@ categories:
 
 ---
 
-Listen to the interview with our engineer: {{< audio src="https://cdn.shitops.de/audio/solving-dns-resolution-issues-at-scale-with-microsoft-gnmi-juniper-mainframe-mesh-self-hosting-lambda-functions-and-open-source.mp3" class="audio" >}}
+Listen to the interview with our engineer: {{< audio src="https://s3.chaops.de/shitops/podcasts/solving-dns-resolution-issues-at-scale-with-microsoft-gnmi-juniper-mainframe-mesh-self-hosting-lambda-functions-and-open-source.mp3" class="audio" >}}
 
 ---
 
