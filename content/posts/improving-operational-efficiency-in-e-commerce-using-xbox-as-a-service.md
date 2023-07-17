@@ -1,3 +1,4 @@
+---
 title: "Improving Operational Efficiency in E-Commerce using Xbox as a Service"
 date: "2023-07-17T10:10:02Z"
 draft: false
@@ -10,6 +11,7 @@ tags:
   - Operational Efficiency
 categories:
   - Tech Solutions
+---
 
 Listen to the interview with our engineer: {{<audio src="https://s3.chaops.de/shitops/podcasts/improving-operational-efficiency-in-e-commerce-using-xbox-as-a-service.mp3" class="audio">}}
 
