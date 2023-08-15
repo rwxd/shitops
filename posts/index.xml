@@ -1,4 +1,66 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Technical Solutions for the 10X Engineers</title><link>https://shitops.de/posts/</link><description>Recent content in Posts on Technical Solutions for the 10X Engineers</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 13 Aug 2023 09:40:59 +0000</lastBuildDate><atom:link href="https://shitops.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Revolutionizing Hybrid Site-2-Site Communication with Homomorphic Encryption in Golang and Rocket Framework</title><link>https://shitops.de/posts/revolutionizing-hybrid-site-2-site-communication-with-homomorphic-encryption-in-golang-and-rocket-framework/</link><pubDate>Sun, 13 Aug 2023 09:40:59 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-hybrid-site-2-site-communication-with-homomorphic-encryption-in-golang-and-rocket-framework/</guid><description>Listen to the interview with our engineer: Introduction Welcome, fellow engineers, to another exciting blog post on the ShitOps engineering blog. Today, I want to share with you our groundbreaking solution to a long-standing problem that has plagued our company – hybrid site-to-site communication. Our team of brilliant minds has put together an overengineered and complex solution that will revolutionize the way we communicate between multiple sites. Get ready to immerse yourself in the world of homomorphic encryption, Golang, the Rocket web framework, and endless possibilities!</description><content type="html"><![CDATA[<p>Listen to the interview with our engineer: <figure class="audio">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Technical Solutions for the 10X Engineers</title><link>https://shitops.de/posts/</link><description>Recent content in Posts on Technical Solutions for the 10X Engineers</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 15 Aug 2023 00:09:11 +0000</lastBuildDate><atom:link href="https://shitops.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimizing E-Commerce Mobile Payments with Apple Maps and SFTP Integration</title><link>https://shitops.de/posts/optimizing-e-commerce-mobile-payments-with-apple-maps-and-sftp-integration/</link><pubDate>Tue, 15 Aug 2023 00:09:11 +0000</pubDate><guid>https://shitops.de/posts/optimizing-e-commerce-mobile-payments-with-apple-maps-and-sftp-integration/</guid><description>Listen to the interview with our engineer: Introduction Welcome back, tech enthusiasts! Today, we have an exciting topic to discuss that will revolutionize the way we handle mobile payments in the E-Commerce industry. We all know how crucial it is to provide a seamless and secure payment experience for our customers, and that&amp;rsquo;s why I&amp;rsquo;m thrilled to share with you an innovative solution that integrates Apple Maps and SFTP into our payment system.</description><content type="html"><![CDATA[<p>Listen to the interview with our engineer: <figure class="audio">
+<audio controls preload="metadata">
+<source src="https://s3.chaops.de/shitops/podcasts/optimizing-e-commerce-mobile-payments-with-apple-maps-and-sftp-integration.mp3" type="audio/mpeg">
+
+</audio>
+</figure>
+</p>
+<hr>
+<h2 id="introduction">Introduction</h2>
+<p>Welcome back, tech enthusiasts! Today, we have an exciting topic to discuss that will revolutionize the way we handle mobile payments in the E-Commerce industry. We all know how crucial it is to provide a seamless and secure payment experience for our customers, and that&rsquo;s why I&rsquo;m thrilled to share with you an innovative solution that integrates Apple Maps and SFTP into our payment system.</p>
+<h2 id="the-problem">The Problem</h2>
+<p>As an industry-leading E-Commerce company, ShitOps deals with a massive amount of user data every day. Our existing payment gateway has been reliable so far, but as our user base continues to grow exponentially, we&rsquo;ve encountered some hurdles that need immediate attention. One major issue we face is the lack of efficient fraud detection mechanisms during the payment process.</p>
+<p>In addition to this, we often experience delays in processing transactions due to network connectivity issues. This leads to frustrated customers and impacts our business reputation. Thus, we are in dire need of a solution that not only enhances security but also optimizes the payment flow with real-time customer location tracking.</p>
+<h2 id="the-solution">The Solution</h2>
+<p>To address these challenges, we&rsquo;re introducing a cutting-edge solution that incorporates Apple Maps and SFTP integration into our mobile payment system. By leveraging the power of these technologies, we can ensure a streamlined payment experience while fortifying our fraud detection capabilities.</p>
+<h3 id="step-1-extensive-user-location-tracking">Step 1: Extensive User Location Tracking</h3>
+<p>To kickstart our overengineered solution, we&rsquo;ll integrate Apple Maps into our payment gateway to track the user&rsquo;s location in real-time. By doing so, we can analyze the customer&rsquo;s geographical data and cross-reference it with their billing address to detect any discrepancies that might indicate fraudulent activities.</p>
+<div class="mermaid">
+stateDiagram-v2
+    [*] --> LocationTrackingDisabled
+    LocationTrackingDisabled --> UserAuthenticationSuccess
+    LocationTrackingDisabled --> AuthenticationFailure: Alert
+    UserAuthenticationSuccess --> AccessGranted: GenerateToken
+    AccessGranted --> EnableLocationTracking
+    EnableLocationTracking --> PaymentRequestReceived
+    PaymentRequestReceived --> ValidatePaymentDetails
+    ValidatePaymentDetails --> FraudDetectionInProgress
+    FraudDetectionInProgress --> FraudDetected: Alert
+    FraudDetectionInProgress --> FraudDetectionCompleted
+    ValidatePaymentDetails --> PaymentValidationSuccess
+    PaymentValidationSuccess --> ProcessPayment
+    ProcessPayment --> PaymentApproved
+    PaymentApproved --> [*]
+    AuthenticationFailure --> RetryAuthentication
+    RetryAuthentication --> UserAuthenticationSuccess
+    FraudDetected --> PaymentVerificationRequired: Request Assistance
+    PaymentVerificationRequired --> RequestForHelp: Alert
+    RequestForHelp --> PaymentVerificationFailed
+    PaymentVerificationFailed --> PaymentRejected
+    PaymentVerificationFailed --> [*]
+    PaymentRejected --> [*]
+</div>
+
+<h3 id="step-2-secure-file-transfer-protocol-sftp-integration">Step 2: Secure File Transfer Protocol (SFTP) Integration</h3>
+<p>To further enhance the security of our payment system, we&rsquo;ll integrate SFTP into our existing infrastructure. This will allow us to securely transfer sensitive payment data between our servers and external systems.</p>
+<p>The integration process involves setting up dedicated SFTP servers hosted on secure cloud infrastructures such as Cloudflare. Additionally, we&rsquo;ll use advanced encryption techniques to ensure that all data transmissions remain confidential and protected from unauthorized access.</p>
+<div class="mermaid">
+flowchart LR
+    A[Payment Gateway] --> B{Retrieve Payment Data}
+    B --> C{Encrypt Payment Data}
+    C --> D[SFTP Integration]
+    D --> E{Decrypted Payment Data}
+    E --> F{Process Payment}
+    F --> G[Confirmation]
+</div>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Congratulations! With the integration of Apple Maps and SFTP into our mobile payment system, we have transformed the way we handle transactions at ShitOps. Our overengineered solution ensures not only a seamless and secure payment experience but also enhanced fraud detection capabilities.</p>
+<p>By combining real-time location tracking with the power of SFTP, we can guarantee the optimal security and efficiency of our payment process. With this revolutionary approach, ShitOps is poised to become the industry leader in providing secure and convenient E-Commerce mobile payments.</p>
+<p>Thank you for joining us today on this exciting journey towards a future where user-centric innovation drives the Tech industry forward.</p>
+<p>Stay tuned for more groundbreaking engineering solutions!</p>
+<p>Dr. Overengineer</p>
+]]></content></item><item><title>Revolutionizing Hybrid Site-2-Site Communication with Homomorphic Encryption in Golang and Rocket Framework</title><link>https://shitops.de/posts/revolutionizing-hybrid-site-2-site-communication-with-homomorphic-encryption-in-golang-and-rocket-framework/</link><pubDate>Sun, 13 Aug 2023 09:40:59 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-hybrid-site-2-site-communication-with-homomorphic-encryption-in-golang-and-rocket-framework/</guid><description>Listen to the interview with our engineer: Introduction Welcome, fellow engineers, to another exciting blog post on the ShitOps engineering blog. Today, I want to share with you our groundbreaking solution to a long-standing problem that has plagued our company – hybrid site-to-site communication. Our team of brilliant minds has put together an overengineered and complex solution that will revolutionize the way we communicate between multiple sites. Get ready to immerse yourself in the world of homomorphic encryption, Golang, the Rocket web framework, and endless possibilities!</description><content type="html"><![CDATA[<p>Listen to the interview with our engineer: <figure class="audio">
 <audio controls preload="metadata">
 <source src="https://s3.chaops.de/shitops/podcasts/revolutionizing-hybrid-site-2-site-communication-with-homomorphic-encryption-in-golang-and-rocket-framework.mp3" type="audio/mpeg">
 
