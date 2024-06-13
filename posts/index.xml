@@ -1,4 +1,46 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Technical Solutions for the 10X Engineers</title><link>https://shitops.de/posts/</link><description>Recent content in Posts on Technical Solutions for the 10X Engineers</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 11 Jun 2024 00:10:34 +0000</lastBuildDate><atom:link href="https://shitops.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Revolutionizing Green Telemetry Solutions with Extreme Programming in Windows 11 for 2021</title><link>https://shitops.de/posts/revolutionizing-green-telemetry-solutions-with-extreme-programming-in-windows-11-for-2021/</link><pubDate>Tue, 11 Jun 2024 00:10:34 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-green-telemetry-solutions-with-extreme-programming-in-windows-11-for-2021/</guid><description>Introduction Welcome back to the ShitOps engineering blog, where we constantly strive to push the boundaries of technology and innovation. In this post, we will be diving into our latest project that aims to revolutionize Green Telemetry solutions using Extreme Programming principles on the newly released Windows 11 platform.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Technical Solutions for the 10X Engineers</title><link>https://shitops.de/posts/</link><description>Recent content in Posts on Technical Solutions for the 10X Engineers</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 13 Jun 2024 08:08:22 +0000</lastBuildDate><atom:link href="https://shitops.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimizing Configuration Management with Out of Band nmap Scans in Australia</title><link>https://shitops.de/posts/optimizing-configuration-management-with-out-of-band-nmap-scans-in-australia/</link><pubDate>Thu, 13 Jun 2024 08:08:22 +0000</pubDate><guid>https://shitops.de/posts/optimizing-configuration-management-with-out-of-band-nmap-scans-in-australia/</guid><description>Introduction Welcome back to the ShitOps engineering blog, where we dive deep into the world of tech solutions for complex problems. Today, we are going to discuss how we can optimize our configuration management process by leveraging out of band nmap scans in Australia.
+The Problem Imagine this scenario: your company has just expanded its operations to multiple locations across Australia, and you are responsible for managing the configurations of all the devices in these locations.</description><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>Welcome back to the ShitOps engineering blog, where we dive deep into the world of tech solutions for complex problems. Today, we are going to discuss how we can optimize our configuration management process by leveraging out of band nmap scans in Australia.</p>
+<h3 id="the-problem">The Problem</h3>
+<p>Imagine this scenario: your company has just expanded its operations to multiple locations across Australia, and you are responsible for managing the configurations of all the devices in these locations. This includes servers, routers, switches, and even employee devices that fall under the bring your own device policy. As the complexity and scale of your infrastructure grow, keeping track of all the configurations becomes a daunting task. How can we ensure that all devices are properly configured and secure?</p>
+<h3 id="the-solution">The Solution</h3>
+<p>Fear not, for I, Sir Reginald McOverengineer, have come up with a brilliant solution to optimize our configuration management process using out of band nmap scans. But first, let&rsquo;s break down the components of our solution:</p>
+<ol>
+<li>
+<p><strong>Out of Band nmap Scans</strong>: By performing nmap scans on our network out of band, we can gather detailed information about all the devices connected to our network. This allows us to identify any unauthorized devices or potential security vulnerabilities.</p>
+</li>
+<li>
+<p><strong>Automation with Configuration Management Tools</strong>: We will leverage popular configuration management tools such as Ansible and Puppet to automate the deployment and maintenance of configurations across all devices in our network.</p>
+</li>
+<li>
+<p><strong>Integration with IMAP and Android Devices</strong>: To ensure seamless communication between our configuration management system and employee devices, we will integrate IMAP for email notifications and push notifications on Android devices for instant alerts.</p>
+</li>
+<li>
+<p><strong>Game of Thrones-inspired Role-based Access Control</strong>: To maintain strict access control over our configuration management system, we will implement a role-based access control model inspired by the Game of Thrones series. Only those with the right credentials can access and make changes to configurations.</p>
+</li>
+</ol>
+<p>Now, let&rsquo;s dive into the technical details of how we will implement this solution:</p>
+<h3 id="technical-implementation">Technical Implementation</h3>
+<h4 id="step-1-out-of-band-nmap-scans">Step 1: Out of Band nmap Scans</h4>
+<p>We will set up a dedicated server in each of our Australian locations to perform regular out of band nmap scans on our network. These scans will provide us with detailed information about all the devices connected to the network, including IP addresses, open ports, and OS versions.</p>
+<div class="mermaid">
+stateDiagram-v2
+    [*] --> Setup
+    Setup --> Perform nmap scan
+    Perform nmap scan --> Analyze results
+    Analyze results --> [*]
+</div>
+
+<h4 id="step-2-automation-with-configuration-management-tools">Step 2: Automation with Configuration Management Tools</h4>
+<p>Once we have gathered the necessary information from our nmap scans, we will use Ansible and Puppet to automate the deployment and maintenance of configurations across all devices. This will ensure consistency and reduce the risk of human error.</p>
+<h4 id="step-3-integration-with-imap-and-android-devices">Step 3: Integration with IMAP and Android Devices</h4>
+<p>To keep all stakeholders informed of any configuration changes, we will set up email notifications using IMAP and push notifications on Android devices. This will allow employees to stay up-to-date on any changes that may impact their devices.</p>
+<h4 id="step-4-game-of-thrones-inspired-role-based-access-control">Step 4: Game of Thrones-inspired Role-based Access Control</h4>
+<p>We will implement a role-based access control system inspired by the Game of Thrones series. Users will be assigned roles such as &ldquo;Lord Commander&rdquo; or &ldquo;Maester,&rdquo; each with different levels of access to the configuration management system. This will help us maintain security and prevent unauthorized changes.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>By leveraging out of band nmap scans, automation with configuration management tools, integration with IMAP and Android devices, and a Game of Thrones-inspired role-based access control system, we can optimize our configuration management process in Australia. This solution will ensure that our network is secure, efficient, and aligned with the latest tech trends.</p>
+<p>Stay tuned for more exciting tech solutions from ShitOps in the future!</p>
+]]></content></item><item><title>Revolutionizing Green Telemetry Solutions with Extreme Programming in Windows 11 for 2021</title><link>https://shitops.de/posts/revolutionizing-green-telemetry-solutions-with-extreme-programming-in-windows-11-for-2021/</link><pubDate>Tue, 11 Jun 2024 00:10:34 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-green-telemetry-solutions-with-extreme-programming-in-windows-11-for-2021/</guid><description>Introduction Welcome back to the ShitOps engineering blog, where we constantly strive to push the boundaries of technology and innovation. In this post, we will be diving into our latest project that aims to revolutionize Green Telemetry solutions using Extreme Programming principles on the newly released Windows 11 platform.
 The Problem Statement In the ever-evolving landscape of technology, it has become increasingly crucial for companies to monitor their systems&amp;rsquo; environmental impact.</description><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>Welcome back to the ShitOps engineering blog, where we constantly strive to push the boundaries of technology and innovation. In this post, we will be diving into our latest project that aims to revolutionize Green Telemetry solutions using Extreme Programming principles on the newly released Windows 11 platform.</p>
 <h2 id="the-problem-statement">The Problem Statement</h2>
