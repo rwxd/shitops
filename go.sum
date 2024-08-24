@@ -2,3 +2,5 @@ github.com/divinerites/plausible-hugo v1.17.2 h1:KaxTnC2mkQQznqHCHaIFe3nDYtC3YgR
 github.com/divinerites/plausible-hugo v1.17.2/go.mod h1:cxr+YB3FUwbLon8KCs4pV4Ankbkq6lJxTQUpNb5KqPo=
 github.com/divinerites/plausible-hugo v1.17.3-0.20221017211825-1dc55676ea55 h1:rh8Bv6NYtBc5taWVUefhcRSs/o4B34/UY+Nzj58uclc=
 github.com/divinerites/plausible-hugo v1.17.3-0.20221017211825-1dc55676ea55/go.mod h1:cxr+YB3FUwbLon8KCs4pV4Ankbkq6lJxTQUpNb5KqPo=
+github.com/divinerites/plausible-hugo v1.20.0 h1:nkoQ/5/ti2nRF8DRiErEemOb1/EAbViUL05aSbiiRuU=
+github.com/divinerites/plausible-hugo v1.20.0/go.mod h1:cxr+YB3FUwbLon8KCs4pV4Ankbkq6lJxTQUpNb5KqPo=
