@@ -1,4 +1,36 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Technical Solutions for the 10X Engineers</title><link>https://shitops.de/posts/</link><description>Recent content in Posts on Technical Solutions for the 10X Engineers</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 04 Sep 2024 00:11:52 +0000</lastBuildDate><atom:link href="https://shitops.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Revolutionizing IoT Monitoring with Event-Driven Self-Hosted Vegan Snacks: An Agile Approach</title><link>https://shitops.de/posts/revolutionizing-iot-monitoring-with-event-driven-self-hosted-vegan-snacks/</link><pubDate>Wed, 04 Sep 2024 00:11:52 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-iot-monitoring-with-event-driven-self-hosted-vegan-snacks/</guid><description>&lt;p>Listen to the interview with our engineer: &lt;figure class="audio">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Technical Solutions for the 10X Engineers</title><link>https://shitops.de/posts/</link><description>Recent content in Posts on Technical Solutions for the 10X Engineers</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 05 Sep 2024 00:11:41 +0000</lastBuildDate><atom:link href="https://shitops.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Revolutionizing Data Storage with Cumulus Linux and MongoDB</title><link>https://shitops.de/posts/revolutionizing-data-storage-with-cumulus-linux-and-mongodb/</link><pubDate>Thu, 05 Sep 2024 00:11:41 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-data-storage-with-cumulus-linux-and-mongodb/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Welcome back to the ShitOps engineering blog! Today, we are going to dive into a revolutionary approach to data storage using Cumulus Linux and MongoDB. Traditional data storage solutions have become increasingly outdated in the fast-paced world of tech, but fear not, we have the perfect solution to streamline your operations and take your data storage to the next level.&lt;/p>
+&lt;h2 id="the-problem-inefficient-data-management">The Problem: Inefficient Data Management&lt;/h2>
+&lt;p>At ShitOps, we were facing a major issue with our data management systems. Our current setup involved a mishmash of drives, televisions, fitness trackers, and even an outdated Mac Mini acting as our server. This hodgepodge of hardware led to inefficiencies in data processing, slow retrieval times, and constant maintenance headaches.&lt;/p></description><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>Welcome back to the ShitOps engineering blog! Today, we are going to dive into a revolutionary approach to data storage using Cumulus Linux and MongoDB. Traditional data storage solutions have become increasingly outdated in the fast-paced world of tech, but fear not, we have the perfect solution to streamline your operations and take your data storage to the next level.</p>
+<h2 id="the-problem-inefficient-data-management">The Problem: Inefficient Data Management</h2>
+<p>At ShitOps, we were facing a major issue with our data management systems. Our current setup involved a mishmash of drives, televisions, fitness trackers, and even an outdated Mac Mini acting as our server. This hodgepodge of hardware led to inefficiencies in data processing, slow retrieval times, and constant maintenance headaches.</p>
+<p>To make matters worse, our antivirus software was constantly flagging false positives on our data, causing delays and frustration among our team members. We needed a complete overhaul of our data storage infrastructure to stay competitive in the market.</p>
+<h2 id="the-solution-enter-cumulus-linux-and-mongodb">The Solution: Enter Cumulus Linux and MongoDB</h2>
+<p>After countless hours of research and development, we stumbled upon the perfect solution to our data storage woes: Cumulus Linux and MongoDB. By combining the power of these two cutting-edge technologies, we were able to completely revolutionize our data management system.</p>
+<h3 id="step-1-extract">Step 1: Extract</h3>
+<p>The first step in our transformation process involved extracting all of our existing data from the various drives, televisions, and fitness trackers scattered around the office. This was no easy feat, but with the help of Cumulus Linux&rsquo;s advanced networking capabilities, we were able to seamlessly extract every bit of data without any loss or corruption.</p>
+<div class="mermaid">
+flowchart LR
+    A[Extract Data from Drives, Televisions, Fitness Trackers] --> B[Transform Data]
+</div>
+
+<h3 id="step-2-transform">Step 2: Transform</h3>
+<p>Once we had extracted all of our data, it was time to transform it into a format that would be compatible with MongoDB. Using the powerful data manipulation tools provided by Cumulus Linux, we were able to effortlessly convert our raw data into a structured format that could be easily ingested by MongoDB.</p>
+<div class="mermaid">
+flowchart LR
+    B[Transform Data] --> C[Load Data into MongoDB]
+</div>
+
+<h3 id="step-3-load">Step 3: Load</h3>
+<p>With our data transformed and ready to go, the final step was to load it into MongoDB for secure storage and efficient retrieval. Thanks to the scalability and high availability features of MongoDB, we were able to seamlessly store our data in a way that was both secure and easily accessible to our team members.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>In conclusion, the combination of Cumulus Linux and MongoDB has completely transformed our data storage infrastructure at ShitOps. With improved efficiency, faster retrieval times, and enhanced security features, we are now better equipped than ever to handle the demands of the modern tech industry.</p>
+<p>If you&rsquo;re looking to revolutionize your own data storage system, look no further than Cumulus Linux and MongoDB. Say goodbye to outdated hardware and inefficient processes, and embrace the future of data management with our innovative solution.</p>
+<p>Thank you for joining us on this journey towards a brighter, more streamlined future. Stay tuned for more exciting updates and insights from the ShitOps engineering team!</p>
+<p><strong>Stay connected, stay ahead.</strong></p>
+<hr>
+]]></content></item><item><title>Revolutionizing IoT Monitoring with Event-Driven Self-Hosted Vegan Snacks: An Agile Approach</title><link>https://shitops.de/posts/revolutionizing-iot-monitoring-with-event-driven-self-hosted-vegan-snacks/</link><pubDate>Wed, 04 Sep 2024 00:11:52 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-iot-monitoring-with-event-driven-self-hosted-vegan-snacks/</guid><description>&lt;p>Listen to the interview with our engineer: &lt;figure class="audio">
 &lt;audio controls preload="metadata">
 &lt;source src="https://s3.chaops.de/shitops/podcasts/revolutionizing-iot-monitoring-with-event-driven-self-hosted-vegan-snacks.mp3" type="audio/mpeg">
 &lt;/audio>
