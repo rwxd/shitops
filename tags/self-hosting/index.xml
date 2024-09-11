@@ -7,4 +7,5 @@
 &lt;/p>
 &lt;hr>
 &lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>DNS resolution is a critical part of the network infrastructure for any tech company. It helps in resolving human-readable domain names into IP addresses and vice versa, but at the cost of adding latency to network requests, which can further impact the performance of applications that depend on them.&lt;/p></description></item></channel></rss>
+&lt;p>DNS resolution is a critical part of the network infrastructure for any tech company. It helps in resolving human-readable domain names into IP addresses and vice versa, but at the cost of adding latency to network requests, which can further impact the performance of applications that depend on them.&lt;/p>
+&lt;p>Recently, our tech company ShitOps faced a DNS resolution issue at scale, due to the increasing number of services added on the network infrastructure. We realized that the traditional approach of using a central DNS server was no longer sufficient to handle this scale.&lt;/p></description></item></channel></rss>
