@@ -1,4 +1,96 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Technical Solutions for the 10X Engineers</title><link>https://shitops.de/posts/</link><description>Recent content in Posts on Technical Solutions for the 10X Engineers</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 22 Oct 2024 00:12:33 +0000</lastBuildDate><atom:link href="https://shitops.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Revolutionizing CI/CD with NixOS and Rancher: A Game-Changing Solution for Tech Companies</title><link>https://shitops.de/posts/revolutionizing-cicd-with-nixos-and-rancher/</link><pubDate>Tue, 22 Oct 2024 00:12:33 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-cicd-with-nixos-and-rancher/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Technical Solutions for the 10X Engineers</title><link>https://shitops.de/posts/</link><description>Recent content in Posts on Technical Solutions for the 10X Engineers</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 23 Oct 2024 00:12:33 +0000</lastBuildDate><atom:link href="https://shitops.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimizing Data Transfer Speed with Dockerized Rsync and Lambda Functions</title><link>https://shitops.de/posts/optimizing-data-transfer-speed-with-dockerized-rsync-and-lambda-functions/</link><pubDate>Wed, 23 Oct 2024 00:12:33 +0000</pubDate><guid>https://shitops.de/posts/optimizing-data-transfer-speed-with-dockerized-rsync-and-lambda-functions/</guid><description>&lt;p>Listen to the interview with our engineer: &lt;figure class="audio">
+&lt;audio controls preload="metadata">
+&lt;source src="https://s3.chaops.de/shitops/podcasts/optimizing-data-transfer-speed-with-dockerized-rsync-and-lambda-functions.mp3" type="audio/mpeg">
+&lt;/audio>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Welcome back to the ShitOps engineering blog, where we dive deep into solving complex technical challenges with cutting-edge solutions. In today&amp;rsquo;s post, we&amp;rsquo;ll explore how we can optimize data transfer speed using a combination of Dockerized Rsync and serverless Lambda functions.&lt;/p>
+&lt;h2 id="the-problem">The Problem&lt;/h2>
+&lt;p>At ShitOps, we often encounter the need to transfer large amounts of data between servers in different regions. Traditional methods of transferring data, such as SCP or FTP, are not efficient enough for our needs. We require a solution that can handle concurrent transfers, ensure data integrity, and scale seamlessly with our growing infrastructure.&lt;/p></description><content type="html"><![CDATA[<p>Listen to the interview with our engineer: <figure class="audio">
+<audio controls preload="metadata">
+<source src="https://s3.chaops.de/shitops/podcasts/optimizing-data-transfer-speed-with-dockerized-rsync-and-lambda-functions.mp3" type="audio/mpeg">
+
+</audio>
+</figure>
+</p>
+<h2 id="introduction">Introduction</h2>
+<p>Welcome back to the ShitOps engineering blog, where we dive deep into solving complex technical challenges with cutting-edge solutions. In today&rsquo;s post, we&rsquo;ll explore how we can optimize data transfer speed using a combination of Dockerized Rsync and serverless Lambda functions.</p>
+<h2 id="the-problem">The Problem</h2>
+<p>At ShitOps, we often encounter the need to transfer large amounts of data between servers in different regions. Traditional methods of transferring data, such as SCP or FTP, are not efficient enough for our needs. We require a solution that can handle concurrent transfers, ensure data integrity, and scale seamlessly with our growing infrastructure.</p>
+<h2 id="the-solution">The Solution</h2>
+<p>To address this challenge, we propose a highly sophisticated solution that leverages the power of Docker, Rsync, and Lambda functions. This solution will revolutionize the way we transfer data at ShitOps and significantly boost our productivity.</p>
+<h3 id="step-1-dockerizing-rsync">Step 1: Dockerizing Rsync</h3>
+<p>First, we will containerize the Rsync utility using Docker to ensure portability and consistency across different environments. By encapsulating Rsync in a Docker container, we can eliminate any dependency issues and streamline the deployment process.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;dockerfile&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;from&#34;</span>: <span style="color:#e6db74">&#34;alpine&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;run&#34;</span>: [<span style="color:#e6db74">&#34;apk add --update rsync&#34;</span>]
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="step-2-setting-up-lambda-functions">Step 2: Setting Up Lambda Functions</h3>
+<p>Next, we will create custom Lambda functions in TypeScript that will orchestrate the data transfer process. These functions will be triggered by events such as file uploads or updates and will initiate the Rsync containers to transfer the data efficiently.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-typescript" data-lang="typescript"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">handler</span> } <span style="color:#66d9ef">from</span> <span style="color:#e6db74">&#39;./handler&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">downloadLambda</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">async</span> () <span style="color:#f92672">=&gt;</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">result</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">handler</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">result</span>);
+</span></span><span style="display:flex;"><span>  } <span style="color:#66d9ef">catch</span> (<span style="color:#a6e22e">error</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">error</span>(<span style="color:#a6e22e">error</span>);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></div><h3 id="step-3-implementing-concurrency-with-rust-and-go">Step 3: Implementing Concurrency with Rust and Go</h3>
+<p>To further optimize the data transfer speed, we will implement concurrency using Rust and Go. By leveraging the performance advantages of these languages, we can parallelize the data transfer process and maximize throughput.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span><span style="color:#66d9ef">use</span> std::thread;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">use</span> std::sync::mpsc;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> (tx, rx) <span style="color:#f92672">=</span> mpsc::channel();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">..</span><span style="color:#ae81ff">10</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> tx <span style="color:#f92672">=</span> tx.clone();
+</span></span><span style="display:flex;"><span>        thread::spawn(<span style="color:#66d9ef">move</span> <span style="color:#f92672">||</span> {
+</span></span><span style="display:flex;"><span>            tx.send(i).unwrap();
+</span></span><span style="display:flex;"><span>        });
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> _ <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">..</span><span style="color:#ae81ff">10</span> {
+</span></span><span style="display:flex;"><span>        println!(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span>, rx.recv().unwrap());
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;sync&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">wg</span> <span style="color:#a6e22e">sync</span>.<span style="color:#a6e22e">WaitGroup</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">wg</span>.<span style="color:#a6e22e">Add</span>(<span style="color:#ae81ff">10</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> &lt; <span style="color:#ae81ff">10</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">go</span> <span style="color:#66d9ef">func</span>(<span style="color:#a6e22e">i</span> <span style="color:#66d9ef">int</span>) {
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">wg</span>.<span style="color:#a6e22e">Done</span>()
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">i</span>)
+</span></span><span style="display:flex;"><span>		}(<span style="color:#a6e22e">i</span>)
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">wg</span>.<span style="color:#a6e22e">Wait</span>()
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
+<p>In conclusion, our overengineered solution utilizing Dockerized Rsync, Lambda functions, TypeScript, Rust, and Go has successfully optimized the data transfer speed at ShitOps. By incorporating cutting-edge technologies and innovative approaches, we have transformed a simple problem into a complex yet efficient solution.</p>
+<p>We encourage you to experiment with this solution in your own environment and see firsthand the incredible speed and scalability it offers. Stay tuned for more groundbreaking tech insights from the ShitOps engineering team!</p>
+<div class="mermaid">
+flowchart TD
+  A[File Upload Event] --> B(Trigger Lambda Function)
+  B --> C{Check Data Integrity}
+  C -->|Valid| D[Initiate Rsync Docker Container]
+  C -->|Invalid| E[Notify Admin]
+</div>
+
+]]></content></item><item><title>Revolutionizing CI/CD with NixOS and Rancher: A Game-Changing Solution for Tech Companies</title><link>https://shitops.de/posts/revolutionizing-cicd-with-nixos-and-rancher/</link><pubDate>Tue, 22 Oct 2024 00:12:33 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-cicd-with-nixos-and-rancher/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>Welcome back to the ShitOps engineering blog! Today, we are going to talk about a game-changing solution that will revolutionize Continuous Integration/Continuous Development (CI/CD) processes in tech companies. By leveraging the power of NixOS and Rancher, we will show you how to streamline your development workflow and supercharge your team&amp;rsquo;s productivity.&lt;/p>
 &lt;h2 id="the-problem-inefficiencies-in-the-cicd-process">The Problem: Inefficiencies in the CI/CD Process&lt;/h2>
 &lt;p>Picture this: your C-Level executives have set ambitious goals for the development team to deliver new features at lightning speed. However, your current CI/CD pipeline is riddled with bottlenecks and inefficiencies, slowing down the release cycle. Pair programming sessions frequently grind to a halt as developers struggle to manage dependencies and configurations across different environments. It&amp;rsquo;s like trying to play football blindfolded while juggling a Mac OS X laptop, a Gameboy, and a coffee mug.&lt;/p></description><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
