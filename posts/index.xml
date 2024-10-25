@@ -1,4 +1,32 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Technical Solutions for the 10X Engineers</title><link>https://shitops.de/posts/</link><description>Recent content in Posts on Technical Solutions for the 10X Engineers</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 23 Oct 2024 00:12:33 +0000</lastBuildDate><atom:link href="https://shitops.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimizing Data Transfer Speed with Dockerized Rsync and Lambda Functions</title><link>https://shitops.de/posts/optimizing-data-transfer-speed-with-dockerized-rsync-and-lambda-functions/</link><pubDate>Wed, 23 Oct 2024 00:12:33 +0000</pubDate><guid>https://shitops.de/posts/optimizing-data-transfer-speed-with-dockerized-rsync-and-lambda-functions/</guid><description>&lt;p>Listen to the interview with our engineer: &lt;figure class="audio">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Technical Solutions for the 10X Engineers</title><link>https://shitops.de/posts/</link><description>Recent content in Posts on Technical Solutions for the 10X Engineers</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 25 Oct 2024 00:12:44 +0000</lastBuildDate><atom:link href="https://shitops.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Revolutionizing Site Reliability Engineering with Microsoft Word</title><link>https://shitops.de/posts/revolutionizing-site-reliability-engineering-with-microsoft-word/</link><pubDate>Fri, 25 Oct 2024 00:12:44 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-site-reliability-engineering-with-microsoft-word/</guid><description>&lt;p>Disable draft, enable toc, enable mermaid and write tags &amp;amp; categories.&lt;/p>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Welcome back to the ShitOps engineering blog, where we continue to push the boundaries of innovation in the world of technology. Today, I am excited to share with you a groundbreaking solution that will revolutionize site reliability engineering as we know it - all thanks to the power of Microsoft Word.&lt;/p>
+&lt;h2 id="the-problem-inefficient-fridge-monitoring-system">The Problem: Inefficient Fridge Monitoring System&lt;/h2>
+&lt;p>At ShitOps, we recently ran into a major issue with our fridge monitoring system in the office. Our current setup relies on outdated XML files to track the temperature of the fridge, leading to frequent inaccuracies and errors in our data. Additionally, the process of transferring these XML files via FTP is slow and cumbersome, causing delays in monitoring and maintenance.&lt;/p></description><content type="html"><![CDATA[<p>Disable draft, enable toc, enable mermaid and write tags &amp; categories.</p>
+<h2 id="introduction">Introduction</h2>
+<p>Welcome back to the ShitOps engineering blog, where we continue to push the boundaries of innovation in the world of technology. Today, I am excited to share with you a groundbreaking solution that will revolutionize site reliability engineering as we know it - all thanks to the power of Microsoft Word.</p>
+<h2 id="the-problem-inefficient-fridge-monitoring-system">The Problem: Inefficient Fridge Monitoring System</h2>
+<p>At ShitOps, we recently ran into a major issue with our fridge monitoring system in the office. Our current setup relies on outdated XML files to track the temperature of the fridge, leading to frequent inaccuracies and errors in our data. Additionally, the process of transferring these XML files via FTP is slow and cumbersome, causing delays in monitoring and maintenance.</p>
+<h2 id="the-solution-harnessing-the-power-of-microsoft-word">The Solution: Harnessing the Power of Microsoft Word</h2>
+<p>To address this problem, we have developed a cutting-edge solution that leverages the advanced functionalities of Microsoft Word. By integrating Microsoft Word into our site reliability engineering processes, we are able to streamline the monitoring of our fridges and ensure real-time, accurate data at all times.</p>
+<h3 id="step-1-data-collection">Step 1: Data Collection</h3>
+<p>First, we have implemented a custom plugin in Microsoft Word that automatically fetches temperature data from our fridges using a secure API. This plugin utilizes advanced hashing algorithms to encrypt the data before storing it in a Word document, ensuring maximum security and integrity of the information.</p>
+<div class="mermaid">
+stateDiagram-v2
+    [*] --> FetchData
+    FetchData --> HashData
+    HashData --> EncryptData
+    EncryptData --> StoreData
+    StoreData --> [*]
+</div>
+
+<h3 id="step-2-real-time-monitoring">Step 2: Real-Time Monitoring</h3>
+<p>Once the temperature data is stored in the Word document, our engineers can easily access and monitor it in real-time through the user-friendly interface of Microsoft Word. This eliminates the need for manual file transfers and allows for instant updates on the status of our fridges.</p>
+<h3 id="step-3-automated-alerts">Step 3: Automated Alerts</h3>
+<p>In addition to real-time monitoring, we have integrated automated alert systems within Microsoft Word to notify our team immediately of any fluctuations or anomalies in fridge temperatures. These alerts are customizable based on predefined thresholds, ensuring timely responses to any potential issues.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Thanks to our innovative approach of using Microsoft Word in site reliability engineering, we have successfully transformed our inefficient fridge monitoring system into a streamlined, secure, and agile process. By embracing new technologies and thinking outside the box, we continue to push the boundaries of what is possible in the world of tech. Stay tuned for more exciting developments from ShitOps!</p>
+]]></content></item><item><title>Optimizing Data Transfer Speed with Dockerized Rsync and Lambda Functions</title><link>https://shitops.de/posts/optimizing-data-transfer-speed-with-dockerized-rsync-and-lambda-functions/</link><pubDate>Wed, 23 Oct 2024 00:12:33 +0000</pubDate><guid>https://shitops.de/posts/optimizing-data-transfer-speed-with-dockerized-rsync-and-lambda-functions/</guid><description>&lt;p>Listen to the interview with our engineer: &lt;figure class="audio">
 &lt;audio controls preload="metadata">
 &lt;source src="https://s3.chaops.de/shitops/podcasts/optimizing-data-transfer-speed-with-dockerized-rsync-and-lambda-functions.mp3" type="audio/mpeg">
 &lt;/audio>
