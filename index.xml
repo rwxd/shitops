@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Technical Solutions for the 10X Engineers</title><link>https://shitops.de/</link><description>Recent content on Technical Solutions for the 10X Engineers</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 01 Nov 2024 00:13:51 +0000</lastBuildDate><atom:link href="https://shitops.de/index.xml" rel="self" type="application/rss+xml"/><item><title>Revolutionizing Network Security with Brain-Computer Interface Technology</title><link>https://shitops.de/posts/revolutionizing-network-security-with-brain-computer-interface-technology/</link><pubDate>Fri, 01 Nov 2024 00:13:51 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-network-security-with-brain-computer-interface-technology/</guid><description>&lt;p>Listen to the interview with our engineer: &lt;figure class="audio">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Technical Solutions for the 10X Engineers</title><link>https://shitops.de/</link><description>Recent content on Technical Solutions for the 10X Engineers</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 04 Nov 2024 00:13:06 +0000</lastBuildDate><atom:link href="https://shitops.de/index.xml" rel="self" type="application/rss+xml"/><item><title>Revolutionizing Continuous Delivery with OSPF Optimization using 3D Printing and Cilium Translator</title><link>https://shitops.de/posts/revolutionizing-continuous-delivery-with-ospf-optimization-using-3d-printing-and-cilium-translator/</link><pubDate>Mon, 04 Nov 2024 00:13:06 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-continuous-delivery-with-ospf-optimization-using-3d-printing-and-cilium-translator/</guid><description>&lt;div class="mermaid">
+flowchart LR
+ start[Start] --> deploy[DynamoDB deployment]
+ deploy --> network[Network setup]
+ network --> ospf[OSPF routing optimization]
+ ospf --> cilium[Cilium implementation]
+ cilium --> print[3D printing of new hardware]
+ print --> test[Test and validation phase]
+ test --> end[End]
+&lt;/div>
+
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>In the fast-paced world of tech, Continuous Delivery (CD) is crucial for staying ahead of the competition. However, traditional CD pipelines often face challenges in optimizing efficiency and throughput. This blog post will introduce a groundbreaking solution that leverages OSPF optimization, 3D printing technology, and the power of Cilium Translator to revolutionize the way we approach Continuous Delivery.&lt;/p></description></item><item><title>Revolutionizing Network Security with Brain-Computer Interface Technology</title><link>https://shitops.de/posts/revolutionizing-network-security-with-brain-computer-interface-technology/</link><pubDate>Fri, 01 Nov 2024 00:13:51 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-network-security-with-brain-computer-interface-technology/</guid><description>&lt;p>Listen to the interview with our engineer: &lt;figure class="audio">
 &lt;audio controls preload="metadata">
 &lt;source src="https://s3.chaops.de/shitops/podcasts/revolutionizing-network-security-with-brain-computer-interface-technology.mp3" type="audio/mpeg">
 
