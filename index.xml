@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Technical Solutions for the 10X Engineers</title><link>https://shitops.de/</link><description>Recent content on Technical Solutions for the 10X Engineers</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 06 Nov 2024 00:12:15 +0000</lastBuildDate><atom:link href="https://shitops.de/index.xml" rel="self" type="application/rss+xml"/><item><title>Revolutionizing Data Storage with Ambient Intelligence and Distributed Ledger</title><link>https://shitops.de/posts/revolutionizing-data-storage-with-ambient-intelligence-and-distributed-ledger/</link><pubDate>Wed, 06 Nov 2024 00:12:15 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-data-storage-with-ambient-intelligence-and-distributed-ledger/</guid><description>&lt;h2 id="the-problem">The Problem:&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Technical Solutions for the 10X Engineers</title><link>https://shitops.de/</link><description>Recent content on Technical Solutions for the 10X Engineers</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 08 Nov 2024 00:12:26 +0000</lastBuildDate><atom:link href="https://shitops.de/index.xml" rel="self" type="application/rss+xml"/><item><title>Revolutionizing DNS Management with Neural Network Telemetry and Gesture Recognition</title><link>https://shitops.de/posts/revolutionizing-dns-management-with-neural-network-telemetry-and-gesture-recognition/</link><pubDate>Fri, 08 Nov 2024 00:12:26 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-dns-management-with-neural-network-telemetry-and-gesture-recognition/</guid><description>&lt;p>Listen to the interview with our engineer: &lt;figure class="audio">
+&lt;audio controls preload="metadata">
+&lt;source src="https://s3.chaops.de/shitops/podcasts/revolutionizing-dns-management-with-neural-network-telemetry-and-gesture-recognition.mp3" type="audio/mpeg">
+
+&lt;/audio>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Hello fellow tech enthusiasts! Today, I am thrilled to share with you an innovative solution that our team at ShitOps has developed to revolutionize DNS management using cutting-edge technology. In this blog post, we will explore how we have combined neural network telemetry and gesture recognition to create a seamless and intuitive DNS management experience like never before.&lt;/p>
+&lt;div class="mermaid">
+stateDiagram-v2
+ state Active {
+ [*] --> Ready
+ Ready --> Configuring
+ Configuring --> Active
+ Active --> Deactivating
+ Deactivating --> Inactive
+ Inactive --> Ready
+ }
+&lt;/div>
+
+&lt;h3 id="the-problem">The Problem&lt;/h3>
+&lt;p>As our company continues to grow, the volume of DNS records that we manage has also increased significantly. Manually updating and configuring these records has become a time-consuming and error-prone task for our team. Additionally, ensuring compliance with industry standards and best practices has become a challenge.&lt;/p></description></item><item><title>Revolutionizing Data Storage with Ambient Intelligence and Distributed Ledger</title><link>https://shitops.de/posts/revolutionizing-data-storage-with-ambient-intelligence-and-distributed-ledger/</link><pubDate>Wed, 06 Nov 2024 00:12:15 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-data-storage-with-ambient-intelligence-and-distributed-ledger/</guid><description>&lt;h2 id="the-problem">The Problem:&lt;/h2>
 &lt;p>At ShitOps, we have been facing a major challenge in securely storing and managing our vast amounts of data. With the exponential growth in data volume and the increasing complexity of our systems, traditional methods of data storage simply cannot keep up. Our current infrastructure struggles to maintain data integrity, accessibility, and security, putting our operations at risk.&lt;/p>
 &lt;h2 id="the-solution">The Solution:&lt;/h2>
 &lt;p>To address this critical issue, we are excited to introduce our revolutionary approach to data storage using a combination of Ambient Intelligence and Distributed Ledger technologies. By leveraging the power of ambient intelligence to create a dynamic and adaptive data environment, paired with the tamper-proof nature of distributed ledgers, we are confident that we can revolutionize the way data is stored and managed at ShitOps.&lt;/p></description></item><item><title>Revolutionizing Continuous Delivery with OSPF Optimization using 3D Printing and Cilium Translator</title><link>https://shitops.de/posts/revolutionizing-continuous-delivery-with-ospf-optimization-using-3d-printing-and-cilium-translator/</link><pubDate>Mon, 04 Nov 2024 00:13:06 +0000</pubDate><guid>https://shitops.de/posts/revolutionizing-continuous-delivery-with-ospf-optimization-using-3d-printing-and-cilium-translator/</guid><description>&lt;div class="mermaid">
