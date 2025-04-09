@@ -2,7 +2,8 @@ baseurl: "https://shitops.de"
 title: "ShitOps"
 languageCode: "en-us"
 theme: "hello-friend-ng"
-paginate: 50
+pagination:
+  pageSize: 50
 disqusShortname: "shitops"
 
 params:
